@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <Button fx:id="btn2" layoutX="14.0" layoutY="458.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Kembali" />
+      <Label layoutX="223.0" layoutY="14.0" prefHeight="17.0" prefWidth="86.0" text="Penanganan" />
+      <Label alignment="TOP_LEFT" layoutX="18.0" layoutY="56.0" prefHeight="395.0" prefWidth="496.0" text="Ketua Harian Satgas Citarum Harum Mayjen (purn) Dedi Kusnadi Thamim mengatakan, apa yang disampaikan Gubernur Jawa Barat itu sesuai dengan data dan fakta yang ada. Menurutnya salah satu bukti keberhasilan Citarum Harum adalah menurunnya tingkat pencemaran Sungai Citarum dari kategori cemar berat menjadi kategori cemar ringan.&quot;Hal ini menunjukkan keberhasilan kolaborasi semua pihak pentaheliks yang berjalan dengan baik, khususnya TNI AD sebagi garda terdepan yang mengawal Program Citarum Harum. Dan pada 2025, ultimate goal IKA adalah 60 yang harus disongsong penuh keyakinan dan usaha bersama,&quot;kata Dedi dalam keterangannya, Jumat (30/12/2022).Selain meningkatnya IKA, keberhasilan program Citarum Harum juga dilihat dari kondisi daerah aliran sungai yang bebas limbah dan sampah, serta produktif untuk aktivitas rekreasi pariwisata air hingga menjadi aliran sungai yang punya ketahanan terhadap bencana dan dampak perubahan iklim. &quot;Hal ini harus dilakukan dengan kerja keras, konsisten dan berkelanjutan serta komitmen untuk mewujudkan program kegiatan yang terdapat dalam rencana aksi,&quot; ujarnya." wrapText="true" />
+   </children>
+</AnchorPane>
