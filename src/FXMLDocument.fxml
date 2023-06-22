@@ -4,7 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="531.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="531.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="">
    <children>
       <Button fx:id="btn1" layoutX="420.0" layoutY="468.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Penanganan" />
       <Label alignment="TOP_CENTER" layoutX="167.0" layoutY="24.0" prefHeight="17.0" prefWidth="197.0" text="Sungai Citarum" />
