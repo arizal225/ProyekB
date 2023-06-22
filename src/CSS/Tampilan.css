@@ -1,0 +1,44 @@
+.anchorpane {
+    -fx-background-color: #111827;
+    -fx-border-widht: 2px 2px 2px 2px;
+}
+
+.anchorpane-akun {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0F4ED8, #0099FF)
+}
+
+.button-akun {
+    -fx-background-color: #0099FF;
+    -fx-background-radius: 90px;
+}
+
+.button-informasi {
+    -fx-background-color: transparant;
+}
+
+.button-publikasi {
+    -fx-background-color: transparant;
+}
+
+.vbox-beranda {
+    -fx-background-color: #0099FF;
+}
+
+.button {
+    -fx-background-color: #0099FF;
+}
+
+.anchorpane-beranda {
+    -fx-background-color: linear-gradient(#D6B7B5, #D4C6BD);
+    -fx-border-color: black;
+}
+
+.latar-logo {
+    -fx-background-color: #D6B7B5;
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+.pane-informasi {
+
+}

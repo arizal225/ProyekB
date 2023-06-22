@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1563.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="-3.0" prefHeight="820.0" prefWidth="262.0" styleClass="vbox-beranda" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Pane prefHeight="141.0" prefWidth="262.0" styleClass="latar-logo" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <ImageView fitHeight="149.0" fitWidth="186.0" layoutX="38.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="268.0" stylesheets="@../CSS/Tampilan.css" text="Akun">
+               <graphic>
+                  <FontAwesomeIcon glyphName="USER" size="15" text="" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button fx:id="informasi" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="318.0" stylesheets="@../CSS/Tampilan.css" text="Informasi Sungai">
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+               <graphic>
+                  <FontAwesomeIcon glyphName="BOOK" size="15" />
+               </graphic>
+            </Button>
+            <Button fx:id="publikasi" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="318.0" stylesheets="@../CSS/Tampilan.css" text="Tindakan DLH">
+               <graphic>
+                  <FontAwesomeIcon size="15" text="" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+            <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="318.0" stylesheets="@../CSS/Tampilan.css" text="Pengaturan">
+               <graphic>
+                  <FontAwesomeIcon size="15" />
+               </graphic>
+               <padding>
+                  <Insets left="50.0" />
+               </padding>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="258.0" prefHeight="820.0" prefWidth="1305.0" styleClass="anchorpane-beranda" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <ImageView fitHeight="859.0" fitWidth="1471.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/backgroun%203.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="26.0" layoutX="599.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/bubble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="26.0" layoutX="481.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/bubble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="26.0" layoutX="586.0" layoutY="609.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/bubble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="26.0" layoutX="859.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/bubble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="26.0" layoutX="761.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/bubble.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="33.0" fitWidth="26.0" layoutX="723.0" layoutY="207.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/bubble.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="501.0" layoutY="327.0" text="RiverNow">
+               <font>
+                  <Font name="System Bold" size="96.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.20304562151432037" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
