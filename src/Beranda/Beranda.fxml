@@ -35,7 +35,7 @@
                   <Insets left="50.0" />
                </padding>
             </Button>
-            <Button fx:id="informasi" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="318.0" stylesheets="@../CSS/Tampilan.css" text="Informasi Sungai">
+            <Button fx:id="informasi" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="318.0" stylesheets="@../CSS/Tampilan.css" text="List Informasi Sungai">
                <padding>
                   <Insets left="50.0" />
                </padding>
