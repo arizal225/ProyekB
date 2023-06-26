@@ -5,17 +5,17 @@
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
 
-<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1301.0" stylesheets="@../CSS/Tampilan.css" type="AnchorPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beranda.BerandaController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beranda.BerandaController">
    <children>
-      <BorderPane prefHeight="820.0" prefWidth="1301.0">
+      <BorderPane fx:id="mainPane" prefHeight="820.0" prefWidth="1301.0">
          <left>
             <VBox prefHeight="820.0" prefWidth="271.0" BorderPane.alignment="CENTER">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="220.0" prefWidth="274.0" text="Informasi Sungai" />
+                  <Button fx:id="informasi" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="220.0" prefWidth="274.0" text="Informasi Sungai" />
                   <Button fx:id="publikasi" mnemonicParsing="false" onAction="#switchToPublikasi" prefHeight="220.0" prefWidth="274.0" text="Publikasi DLH" />
                </children>
             </VBox>
          </left>
       </BorderPane>
    </children>
-</fx:root>
+</AnchorPane>

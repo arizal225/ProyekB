@@ -7,11 +7,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 
 public class OpenScene {
-    private Pane halaman;
+    private static Pane halaman;
     
-    public Pane getPane(String fileName){
+    public static  Pane getPane(String path){
         try{
-            URL fileHalaman=Main.class.getResource("/"+fileName+".fxml");
+            URL fileHalaman=Main.class.getResource(path + ".fxml");
             
             if(fileHalaman==null){
                 throw new java.io.FileNotFoundException("Halaman tidak ditemukan");

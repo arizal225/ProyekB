@@ -27,6 +27,9 @@ public class BerandaController implements Initializable {
     @FXML
     private Button publikasi;
 
+    @FXML
+    private BorderPane mainPane;
+
     private Scene scene;
 
     private Stage stage;
@@ -35,27 +38,19 @@ public class BerandaController implements Initializable {
     
     @FXML
     private void switchToPublikasi(ActionEvent event) throws IOException{
-        // 1. Baca file fxml
-        Parent root = FXMLLoader.load(getClass().getResource("../Publikasi/Publikasi.fxml"));
+        mainPane.setCenter(OpenScene.getPane("../Publikasi/Publikasi"));
+    }
 
-        // 2. Buat scene baru dari file fxml
-        Scene newScene = new Scene (root);
-        
-        // 3. Cari di node mana event terjadi
-        Node node = (Node) event.getSource();
-        
-        // 4. Cari di stage mana node berada
-        Stage stage = (Stage) node.getScene().getWindow();
-
-        // 5. Setelah mendapatkan stage, ubah scene dari stage tersebut dengan scene baru
-        stage.setScene(newScene);
-        stage.setMaximized(true);
+    @FXML
+    private void switchToInformasi(ActionEvent event) throws IOException{
+        mainPane.setCenter(OpenScene.getPane("../Informasi/Informasi"));
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'initialize'");
+        if(mainPane.getCenter() == null){
+            mainPane.setCenter(OpenScene.getPane("../Informasi/Informasi"));
+        }
     }
 }
     
