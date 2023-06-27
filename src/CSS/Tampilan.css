@@ -25,18 +25,25 @@
 }
 
 .button {
-    -fx-background-color: #0099FF;
+    -fx-background-color: transparant;
 }
 
-.button:hover {
+.button-informasi:hover {
     -fx-font-veight: bold;
     -fx-background-color: #082B59;
     -fx-border-color: White;
+    -fx-border-width: 0px 0px 0px 3px;
+}
 
+.button-publikasi:hover {
+    -fx-font-veight: bold;
+    -fx-background-color: #082B59;
+    -fx-border-color: White;
+    -fx-border-width: 0px 0px 0px 3px;
+}
 
-
-
-    
+.button-profile {
+    -fx-background-color: transparant;
 }
 
 
