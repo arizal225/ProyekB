@@ -46,12 +46,22 @@
     -fx-background-color: transparant;
 }
 
+.button-beranda:hover {
+    -fx-font-veight: bold;
+    -fx-background-color: #082B59;
+    -fx-border-color: White;
+    -fx-border-width: 0px 0px 0px 3px;
+
+}
 
 
 
 .anchorpane-beranda {
     -fx-background-color: linear-gradient(#D6B7B5, #D4C6BD);
+    -fx-background-radius: 20px;
     -fx-border-color: black;
+    -fx-border-radius: 20px;
+    
 }
 
 .latar-logo {

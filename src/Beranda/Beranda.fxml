@@ -13,6 +13,7 @@
          <left>
             <VBox fx:id="slide" prefHeight="822.0" prefWidth="231.0" styleClass="vbox-beranda" stylesheets="@../CSS/Tampilan.css" BorderPane.alignment="CENTER">
                <children>
+                  <Button fx:id="utama" mnemonicParsing="false" onAction="#switchToUtama" prefHeight="58.0" prefWidth="246.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Beranda" textFill="WHITE" />
                   <Button fx:id="informasi" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="59.0" prefWidth="271.0" styleClass="button-informasi" stylesheets="@../CSS/Tampilan.css" text="Informasi Sungai" textFill="WHITE">
                      <graphic>
                         <FontAwesomeIcon glyphName="BOOK" size="30" text="" />

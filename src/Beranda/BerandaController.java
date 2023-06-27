@@ -41,6 +41,13 @@ public class BerandaController implements Initializable {
 
     private Parent root;
     
+    
+
+    @FXML
+    private void switchToUtama(ActionEvent event) throws IOException{
+        mainPane.setCenter(OpenScene.getPane("../Home/Home"));
+    }
+
     @FXML
     private void switchToPublikasi(ActionEvent event) throws IOException{
         mainPane.setCenter(OpenScene.getPane("../Publikasi/Publikasi"));
@@ -51,10 +58,12 @@ public class BerandaController implements Initializable {
         mainPane.setCenter(OpenScene.getPane("../Informasi/Informasi"));
     }
 
+    
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         if(mainPane.getCenter() == null){
-            mainPane.setCenter(OpenScene.getPane("../Informasi/Informasi"));
+            mainPane.setCenter(OpenScene.getPane("../Home/Home"));
         }
     }
 }
