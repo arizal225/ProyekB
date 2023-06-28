@@ -73,3 +73,18 @@
 .pane-informasi {
 
 }
+
+.anchorpane-informasi {
+    -fx-background-color: #081526;
+}
+
+.anchorpane-list {
+    -fx-background-color: #082B59;
+    -fx-background-radius: 0px 0px 7px 7px;
+}
+
+.list {
+    -fx-background-color: transparant;
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 1px 0px;
+}

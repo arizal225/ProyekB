@@ -1,5 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1305.0" style="-fx-background-color: blue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController" />
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1305.0" styleClass="anchorpane-informasi" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+   <children>
+      <AnchorPane layoutX="29.0" layoutY="152.0" prefHeight="46.0" prefWidth="1247.0" style="-fx-background-radius: 7px 7px 0px 0px;" styleClass="anchorpane-list">
+         <children>
+            <Label layoutX="14.0" layoutY="12.0" text="No" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="335.0" layoutY="12.0" text="Lokasi" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="13.0" text="Nama" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="29.0" layoutY="199.0" prefHeight="446.0" prefWidth="1247.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <AnchorPane prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="12.0" text="1" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="46.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="12.0" text="2" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="92.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="13.0" layoutY="11.0" text="3" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="138.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="9.0" text="4" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="184.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="16.0" layoutY="14.0" text="5" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="230.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="16.0" layoutY="12.0" text="6" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="276.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="17.0" layoutY="14.0" text="7" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="322.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="15.0" layoutY="13.0" text="8" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="368.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="14.0" layoutY="10.0" text="9" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="414.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list-akhir" stylesheets="@../CSS/Tampilan.css">
+               <children>
+                  <Label layoutX="13.0" layoutY="13.0" text="10" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-5.0" prefHeight="118.0" prefWidth="1314.0" />
+   </children>
+</AnchorPane>
