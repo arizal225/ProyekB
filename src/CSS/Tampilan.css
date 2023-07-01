@@ -88,3 +88,7 @@
     -fx-border-color: black;
     -fx-border-width: 0px 0px 1px 0px;
 }
+
+.lihat-rincian {
+    -fx-background-color: #8359A3;
+}
