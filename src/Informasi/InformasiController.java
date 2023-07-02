@@ -7,7 +7,9 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Node;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
@@ -19,12 +21,20 @@ public class InformasiController implements Initializable{
     @FXML
     private Button winongo;
 
-    private void handleButtonAction (ActionEvent event) throws Exception {
-        Stage stage;
-        Parent root;
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
 
-        stage = (Stage) winongo.getScene().getWindow();
-        root = FXMLLoader.load(getClass().getResource("Winongo.fxml"));
+    @FXML
+    public void handleButtonAction (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("Winongo.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+        
+
+
     
     }
 

@@ -92,3 +92,26 @@
 .lihat-rincian {
     -fx-background-color: #8359A3;
 }
+
+.anchorpane-winongo {
+    -fx-background-color: chocolate;
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+.anchorpane-right {
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 0px 1px;
+}
+
+.anchorpane-informasi-up {
+    -fx-background-color: #D3D3D3;
+    
+}
+
+.anchorpane-beranda-up {
+    -fx-background-color: #D3D3D3;
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 1px 0px;
+    
+}

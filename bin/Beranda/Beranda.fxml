@@ -23,7 +23,7 @@
             </VBox>
          </left>
          <top>
-            <Pane prefHeight="90.0" prefWidth="1302.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER" />
+            <Pane prefHeight="90.0" prefWidth="1302.0" styleClass="anchorpane-beranda-up" stylesheets="@../CSS/Tampilan.css" BorderPane.alignment="CENTER" />
          </top>
       </BorderPane>
    </children>

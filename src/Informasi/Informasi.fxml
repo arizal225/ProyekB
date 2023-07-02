@@ -55,7 +55,7 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="127.0" layoutY="12.0" text="1" textFill="WHITE">
+                  <Label layoutX="100.0" layoutY="12.0" text="Winongo" textFill="WHITE">
                      <font>
                         <Font size="15.0" />
                      </font>
@@ -65,6 +65,21 @@
                         <Font size="15.0" />
                      </font>
                   </Button>
+                  <Label layoutX="299.0" layoutY="12.0" text="Yogyakarta" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="495.0" layoutY="12.0" text="25 mg/l" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="715.0" layoutY="12.0" text="47.5 Km" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="46.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -74,6 +89,26 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Label layoutX="127.0" layoutY="12.0" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="12.0" text="Sumurboto" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="301.0" layoutY="12.0" text="Semarang" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="92.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -83,6 +118,16 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Label layoutX="127.0" layoutY="11.0" text="1" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="138.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -92,6 +137,16 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Label layoutX="127.0" layoutY="9.0" text="1" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="184.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -101,6 +156,11 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="230.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -110,6 +170,11 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="276.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -119,6 +184,11 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="322.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -128,6 +198,11 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="368.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list" stylesheets="@../CSS/Tampilan.css">
@@ -137,6 +212,11 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
             <AnchorPane layoutY="414.0" prefHeight="46.0" prefWidth="1247.0" styleClass="list-akhir" stylesheets="@../CSS/Tampilan.css">
@@ -146,10 +226,22 @@
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <Button layoutX="1066.0" layoutY="7.0" mnemonicParsing="false" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Rincian" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
                </children>
             </AnchorPane>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="-5.0" prefHeight="118.0" prefWidth="1314.0" />
+      <AnchorPane layoutX="-5.0" prefHeight="118.0" prefWidth="1314.0" styleClass="anchorpane-informasi-up" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="580.0" layoutY="36.0" text="List Sungai">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
    </children>
 </AnchorPane>
