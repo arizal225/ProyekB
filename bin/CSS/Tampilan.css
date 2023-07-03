@@ -13,26 +13,14 @@
 }
 
 .button-informasi {
-    -fx-background-color: transparant;
-}
-
-.button-publikasi {
-    -fx-background-color: transparant;
-}
-
-.vbox-beranda {
-    -fx-background-color: #08428C;
-}
-
-.button {
-    -fx-background-color: transparant;
+    -fx-background-color: linear-gradient(to left,#2438A6, #8F9AD9);
 }
 
 .button-informasi:hover {
     -fx-font-veight: bold;
     -fx-background-color: #082B59;
     -fx-border-color: White;
-    -fx-border-width: 0px 0px 0px 3px;
+    -fx-border-width: 3px 3px 3px 3px;
 }
 
 .button-publikasi:hover {

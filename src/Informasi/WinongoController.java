@@ -1,5 +1,6 @@
 package Informasi;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -24,8 +25,18 @@ public class WinongoController implements Initializable{
     private Stage stage;
     private Scene scene;
     private Parent root;
+
+    @FXML
+    private void switchToInformasi(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Informasi.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
     
-        
+    
 
 
     

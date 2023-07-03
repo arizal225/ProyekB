@@ -43,42 +43,25 @@ public class BerandaController implements Initializable {
     private Stage stage;
 
     private Parent root;
-    
-    
-
-    @FXML
-    private void switchToUtama(ActionEvent event) throws IOException{
-        mainPane.setCenter(OpenScene.getPane("../Home/Home"));
-    }
-
-    @FXML
-    private void switchToPublikasi(ActionEvent event) throws IOException{
-        mainPane.setCenter(OpenScene.getPane("../Publikasi/Publikasi"));
-    }
 
     @FXML
     private void switchToInformasi(ActionEvent event) throws IOException{
-        mainPane.setCenter(OpenScene.getPane("../Informasi/Informasi"));
-    }
-
-
-
-    @FXML
-    private void switchToLogin(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("../Login/Login.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Informasi.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
+        stage.setMaximized(true);
         stage.show();
     }
+    
+    
 
     
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        if(mainPane.getCenter() == null){
-            mainPane.setCenter(OpenScene.getPane("../Home/Home"));
-        }
+
+        
     }
 }
     

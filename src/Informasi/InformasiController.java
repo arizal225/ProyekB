@@ -1,5 +1,6 @@
 package Informasi;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -21,6 +22,12 @@ public class InformasiController implements Initializable{
     @FXML
     private Button winongo;
 
+    @FXML
+    private Button kembali;
+
+    @FXML
+    private Button back;
+
     private Stage stage;
     private Scene scene;
     private Parent root;
@@ -33,6 +40,35 @@ public class InformasiController implements Initializable{
         stage.setScene(scene);
         stage.show();
     }
+
+    @FXML
+    private void switchToBeranda (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("../Beranda/Beranda.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    private void switchToInformasi (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Informasi.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    
+
+
+
+
+
+     
+
+
+    
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
