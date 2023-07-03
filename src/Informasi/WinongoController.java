@@ -24,24 +24,15 @@ public class WinongoController implements Initializable{
     private Stage stage;
     private Scene scene;
     private Parent root;
-
-    @FXML
-    public void switchToInformasi (ActionEvent event) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Informasi.fxml"));
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+    
         
 
 
     
-    }
+    
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         
-        
     }
-
 }

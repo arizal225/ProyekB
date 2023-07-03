@@ -19,6 +19,11 @@
                         <FontAwesomeIcon glyphName="BOOK" size="30" text="" />
                      </graphic></Button>
                   <Button fx:id="publikasi" mnemonicParsing="false" onAction="#switchToPublikasi" prefHeight="58.0" prefWidth="271.0" styleClass="button-publikasi" stylesheets="@../CSS/Tampilan.css" text="Publikasi DLH" textFill="WHITE" />
+                  <AnchorPane prefHeight="558.0" prefWidth="231.0">
+                     <children>
+                        <Button fx:id="logout" layoutY="465.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="54.0" prefWidth="231.0" text="Logout" textFill="WHITE" />
+                     </children>
+                  </AnchorPane>
                </children>
             </VBox>
          </left>

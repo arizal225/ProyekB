@@ -35,6 +35,9 @@ public class BerandaController implements Initializable {
     @FXML
     private BorderPane mainPane;
 
+    @FXML
+    private Button logout;
+
     private Scene scene;
 
     private Stage stage;
@@ -56,6 +59,17 @@ public class BerandaController implements Initializable {
     @FXML
     private void switchToInformasi(ActionEvent event) throws IOException{
         mainPane.setCenter(OpenScene.getPane("../Informasi/Informasi"));
+    }
+
+
+
+    @FXML
+    private void switchToLogin(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("../Login/Login.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
     
