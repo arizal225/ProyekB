@@ -1,105 +1,116 @@
 .anchorpane {
-    -fx-background-color: #111827;
-    -fx-border-widht: 2px 2px 2px 2px;
+  -fx-background-color: #111827;
+  -fx-border-widht: 2px 2px 2px 2px;
 }
 
 .anchorpane-akun {
-    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #0F4ED8, #0099FF)
+  -fx-background-color: linear-gradient(
+    from 0% 0% to 100% 100%,
+    #0f4ed8,
+    #0099ff
+  );
 }
 
 .button-akun {
-    -fx-background-color: #0099FF;
-    -fx-background-radius: 90px;
+  -fx-background-color: #0099ff;
+  -fx-background-radius: 90px;
 }
 
 .button-informasi {
-    -fx-background-color: linear-gradient(to left,#2438A6, #8F9AD9);
+  -fx-background-color: linear-gradient(to left, #2438a6, #8f9ad9);
 }
 
 .button-informasi:hover {
-    -fx-font-veight: bold;
-    -fx-background-color: #082B59;
-    -fx-border-color: White;
-    -fx-border-width: 3px 3px 3px 3px;
+  -fx-font-veight: bold;
+  -fx-background-color: #082b59;
+  -fx-border-color: White;
+  -fx-border-width: 3px 3px 3px 3px;
 }
 
 .button-publikasi:hover {
-    -fx-font-veight: bold;
-    -fx-background-color: #082B59;
-    -fx-border-color: White;
-    -fx-border-width: 0px 0px 0px 3px;
+  -fx-font-veight: bold;
+  -fx-background-color: #082b59;
+  -fx-border-color: White;
+  -fx-border-width: 0px 0px 0px 3px;
 }
 
 .button-profile {
-    -fx-background-color: transparant;
+  -fx-background-color: transparant;
 }
 
 .button-beranda:hover {
-    -fx-font-veight: bold;
-    -fx-background-color: #082B59;
-    -fx-border-color: White;
-    -fx-border-width: 0px 0px 0px 3px;
-
+  -fx-font-veight: bold;
+  -fx-background-color: #082b59;
+  -fx-border-color: White;
+  -fx-border-width: 0px 0px 0px 3px;
 }
 
-
-
 .anchorpane-beranda {
-    -fx-background-color: linear-gradient(#D6B7B5, #D4C6BD);
-    -fx-background-radius: 20px;
-    -fx-border-color: black;
-    -fx-border-radius: 20px;
-    
+  -fx-background-color: linear-gradient(#d6b7b5, #d4c6bd);
+  -fx-background-radius: 20px;
+  -fx-border-color: black;
+  -fx-border-radius: 20px;
 }
 
 .latar-logo {
-    -fx-background-color: #D6B7B5;
-    -fx-border-color: black;
-    -fx-border-width: 0px 0px 2px 0px;
+  -fx-background-color: #d6b7b5;
+  -fx-border-color: black;
+  -fx-border-width: 0px 0px 2px 0px;
 }
 
 .pane-informasi {
-
 }
 
 .anchorpane-informasi {
-    -fx-background-color: #081526;
+  -fx-background-color: #081526;
 }
 
 .anchorpane-list {
-    -fx-background-color: #082B59;
-    -fx-background-radius: 0px 0px 7px 7px;
+  -fx-background-color: #082b59;
+  -fx-background-radius: 0px 0px 7px 7px;
 }
 
 .list {
-    -fx-background-color: transparant;
-    -fx-border-color: black;
-    -fx-border-width: 0px 0px 1px 0px;
+  -fx-background-color: transparant;
+  -fx-border-color: black;
+  -fx-border-width: 0px 0px 1px 0px;
 }
 
 .lihat-rincian {
-    -fx-background-color: #8359A3;
+  -fx-background-color: #8359a3;
+}
+
+.lihat-rincian:hover {
+  -fx-background-color: #28104e;
 }
 
 .anchorpane-winongo {
-    -fx-background-color: chocolate;
-    -fx-border-color: black;
-    -fx-border-width: 0px 0px 1px 0px;
+  -fx-background-color: chocolate;
+  -fx-border-color: black;
+  -fx-border-width: 0px 0px 1px 0px;
 }
 
 .anchorpane-right {
-    -fx-border-color: black;
-    -fx-border-width: 0px 0px 0px 1px;
+  -fx-border-color: black;
+  -fx-border-width: 0px 0px 0px 1px;
 }
 
 .anchorpane-informasi-up {
-    -fx-background-color: #D3D3D3;
-    
+  -fx-background-color: #d3d3d3;
 }
 
 .anchorpane-beranda-up {
-    -fx-background-color: #D3D3D3;
-    -fx-border-color: black;
-    -fx-border-width: 0px 0px 1px 0px;
-    
+  -fx-background-color: #d3d3d3;
+  -fx-border-color: black;
+  -fx-border-width: 0px 0px 1px 0px;
+}
+
+.button-logout {
+    -fx-background-color: linear-gradient(#ff4d4d, #ff8080);
+    -fx-background-radius: 50px;
+}
+
+.button-logout:hover {
+    -fx-background-color: #ff1a1a;
+    -fx-background-radius: 50px;
 }
