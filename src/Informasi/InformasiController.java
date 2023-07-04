@@ -23,6 +23,12 @@ public class InformasiController implements Initializable{
     private Button winongo;
 
     @FXML
+    private Button dlhButton;
+
+    @FXML
+    private Button tentangButton;
+
+    @FXML
     private Button kembali;
 
     @FXML
@@ -58,7 +64,14 @@ public class InformasiController implements Initializable{
         stage.setScene(scene);
         stage.show();
     }
-
+    @FXML
+    private void switchToDlh (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Profiledlh.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
     
 
 
