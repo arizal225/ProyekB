@@ -3,14 +3,6 @@
   -fx-border-widht: 2px 2px 2px 2px;
 }
 
-.anchorpane-akun {
-  -fx-background-color: linear-gradient(
-    from 0% 0% to 100% 100%,
-    #0f4ed8,
-    #0099ff
-  );
-}
-
 .button-akun {
   -fx-background-color: #0099ff;
   -fx-background-radius: 90px;
@@ -58,9 +50,6 @@
   -fx-border-width: 0px 0px 2px 0px;
 }
 
-.pane-informasi {
-}
-
 .anchorpane-informasi {
   -fx-background-color: #081526;
 }
@@ -106,11 +95,31 @@
 }
 
 .button-logout {
-    -fx-background-color: linear-gradient(#ff4d4d, #ff8080);
-    -fx-background-radius: 50px;
+  -fx-background-color: linear-gradient(#ff4d4d, #ff8080);
+  -fx-background-radius: 50px;
 }
 
 .button-logout:hover {
-    -fx-background-color: #ff1a1a;
-    -fx-background-radius: 50px;
+  -fx-background-color: #ff1a1a;
+  -fx-background-radius: 50px;
+}
+
+.button-tentangdlh {
+  -fx-background-color: linear-gradient(#c7ea46, #98f898);
+}
+
+.button-tentangdlh:hover {
+  -fx-background-color: #00a868;
+  -fx-border-color: White;
+  -fx-border-width: 3px 3px 3px 3px;
+}
+
+.button-tentangaplikasi {
+  -fx-background-color: linear-gradient(#ffd700, #ffff00);
+}
+
+.button-tentangaplikasi:hover {
+  -fx-background-color: #ffbd00;
+  -fx-border-color: White;
+  -fx-border-width: 3px 3px 3px 3px;
 }
