@@ -10,7 +10,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" style="-fx-background-color: transparant;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beranda.BerandaController">
    <children>
-      <Button fx:id="informasi" layoutX="676.0" layoutY="134.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="188.0" prefWidth="205.0" styleClass="button-informasi" stylesheets="@../CSS/Tampilan.css" />
+      <Button fx:id="informasi" layoutX="676.0" layoutY="270.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="188.0" prefWidth="205.0" styleClass="button-informasi" stylesheets="@../CSS/Tampilan.css" />
       <AnchorPane prefHeight="95.0" prefWidth="1691.0" styleClass="anchorpane-beranda-up" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1459.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
@@ -25,21 +25,26 @@
             </Button>
          </children></AnchorPane>
       <FontAwesomeIcon fill="WHITE" glyphName="BOOK" layoutX="742.0" layoutY="256.0" size="80" />
-      <Label layoutX="712.0" layoutY="334.0" text="Informasi Sungai">
+      <Label layoutX="712.0" layoutY="470.0" text="Informasi Sungai">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Button fx:id="dlhButton" layoutX="250.0" layoutY="134.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="188.0" prefWidth="205.0" styleClass="button-tentangdlh" stylesheets="@../CSS/Tampilan.css" />
-      <Button fx:id="tentangButton" layoutX="1108.0" layoutY="134.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="188.0" prefWidth="205.0" styleClass="button-informasi" stylesheets="@../CSS/Tampilan.css" />
-      <Label layoutX="301.0" layoutY="334.0" text="Tentang DLH">
+      <Button fx:id="dlhButton" layoutX="250.0" layoutY="270.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="188.0" prefWidth="205.0" styleClass="button-tentangdlh" stylesheets="@../CSS/Tampilan.css" />
+      <Button fx:id="tentangButton" layoutX="1107.0" layoutY="267.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="188.0" prefWidth="205.0" styleClass="button-ttgapk" stylesheets="@../CSS/Tampilan.css" />
+      <Label layoutX="301.0" layoutY="470.0" text="Tentang DLH">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <Label layoutX="1144.0" layoutY="334.0" text="Tentang Aplikasi">
+      <Label layoutX="1144.0" layoutY="470.0" text="Tentang Aplikasi">
          <font>
             <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="120.0" text="Beranda">
+         <font>
+            <Font name="System Bold" size="50.0" />
          </font>
       </Label>
    </children>

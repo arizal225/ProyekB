@@ -3,6 +3,8 @@
   -fx-border-widht: 2px 2px 2px 2px;
 }
 
+
+
 .button-akun {
   -fx-background-color: #0099ff;
   -fx-background-radius: 90px;
@@ -19,23 +21,11 @@
   -fx-border-width: 3px 3px 3px 3px;
 }
 
-.button-publikasi:hover {
-  -fx-font-veight: bold;
-  -fx-background-color: #082b59;
-  -fx-border-color: White;
-  -fx-border-width: 0px 0px 0px 3px;
-}
-
 .button-profile {
   -fx-background-color: transparant;
 }
 
-.button-beranda:hover {
-  -fx-font-veight: bold;
-  -fx-background-color: #082b59;
-  -fx-border-color: White;
-  -fx-border-width: 0px 0px 0px 3px;
-}
+
 
 .anchorpane-beranda {
   -fx-background-color: linear-gradient(#d6b7b5, #d4c6bd);
@@ -95,13 +85,13 @@
 }
 
 .button-logout {
-  -fx-background-color: linear-gradient(#ff4d4d, #ff8080);
-  -fx-background-radius: 50px;
+    -fx-background-color: linear-gradient(#ff4d4d, #ff8080);
+    -fx-background-radius: 50px;
 }
 
 .button-logout:hover {
-  -fx-background-color: #ff1a1a;
-  -fx-background-radius: 50px;
+    -fx-background-color: #ff1a1a;
+    -fx-background-radius: 50px;
 }
 
 .button-tentangdlh {
@@ -114,12 +104,25 @@
   -fx-border-width: 3px 3px 3px 3px;
 }
 
-.button-tentangaplikasi {
+.button-ttgapk {
   -fx-background-color: linear-gradient(#ffd700, #ffff00);
 }
 
-.button-tentangaplikasi:hover {
+.button-ttgapk:hover {
   -fx-background-color: #ffbd00;
   -fx-border-color: White;
   -fx-border-width: 3px 3px 3px 3px;
 }
+
+.button-login {
+  -fx-background-color: #0598ff;
+  -fx-background-radius: 90;
+
+}
+
+.button-login:hover {
+  -fx-background-color: #0000ff;
+
+}
+
+

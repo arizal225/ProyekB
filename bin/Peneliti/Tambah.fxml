@@ -18,7 +18,7 @@
                </font>
             </Label>
          </children></AnchorPane>
-      <TableView fx:id="tableView" layoutX="43.0" layoutY="152.0" prefHeight="515.0" prefWidth="1218.0">
+      <TableView fx:id="tableView" layoutX="43.0" layoutY="152.0" prefHeight="515.0" prefWidth="1218.0" stylesheets="@../CSS/Tampilan.css">
         <columns>
           <TableColumn fx:id="kolomNama" prefWidth="203.99998474121094" text="Nama" />
             <TableColumn fx:id="kolomLokasi" minWidth="0.0" prefWidth="115.20001220703125" text="Lokasi" />
