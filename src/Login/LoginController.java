@@ -38,7 +38,7 @@ public class LoginController implements Initializable {
     public void login (MouseEvent event) throws IOException{
         if(username.getText().equals("admin") && password.getText().equals("admin")){
             // 1. Baca file fxml
-            Parent root = FXMLLoader.load(getClass().getResource("../Beranda/Beranda.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("../Pilih/Pilih.fxml"));
 
             // 2. Buat scene baru dari file fxml
             Scene newScene = new Scene (root);
@@ -51,7 +51,7 @@ public class LoginController implements Initializable {
 
             // 5. Setelah mendapatkan stage, ubah scene dari stage tersebut dengan scene baru
             stage.setScene(newScene);
-            stage.setMaximized(true);
+            
         }
     }
 }
