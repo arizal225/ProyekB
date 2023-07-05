@@ -122,7 +122,21 @@
 
 .button-login:hover {
   -fx-background-color: #0000ff;
-
 }
 
+.button-pengguna {
+  -fx-background-color: linear-gradient(to left ,#0099ff, #0f4ed8);
+  -fx-background-radius: 90;
+}
 
+.button-peneliti {
+  -fx-background-color: transparant;
+  -fx-border-color: #0099ff;
+  -fx-border-radius: 90;
+}
+
+.anchorpane-sungai {
+  -fx-background-color: #6237a0;
+  -fx-background-radius: 0px 0px 145px 145px;
+  
+}
