@@ -1,4 +1,4 @@
-package Peneliti;
+package InputData;
 
 public class DataSungai {
     String Nama;

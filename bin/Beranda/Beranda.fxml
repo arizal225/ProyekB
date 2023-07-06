@@ -23,8 +23,13 @@
                   <Font size="16.0" />
                </font>
             </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="706.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
          </children></AnchorPane>
-      <FontAwesomeIcon fill="WHITE" glyphName="BOOK" layoutX="742.0" layoutY="256.0" size="80" />
+      <FontAwesomeIcon fill="WHITE" glyphName="BOOK" layoutX="741.0" layoutY="389.0" size="80" />
       <Label layoutX="712.0" layoutY="470.0" text="Informasi Sungai">
          <font>
             <Font size="18.0" />
@@ -47,5 +52,17 @@
             <Font name="System Bold" size="50.0" />
          </font>
       </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="761.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="746.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Icon%20DLH.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1135.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Tentang%20Aplikasi.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

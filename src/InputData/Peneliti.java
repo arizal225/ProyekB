@@ -1,4 +1,4 @@
-package Peneliti;
+package InputData;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +14,7 @@ public class Peneliti extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Tambah.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("InputData.fxml"));
         
         Scene scene = new Scene(root);
         

@@ -29,6 +29,9 @@ public class PilihController implements Initializable {
     @FXML
     private Button pengguna;
 
+    @FXML
+    private Button peneliti;
+
     private Scene scene;
 
     private Stage stage;
@@ -38,6 +41,16 @@ public class PilihController implements Initializable {
     @FXML
     private void switchToBeranda(ActionEvent event) throws IOException{
         Parent root = FXMLLoader.load(getClass().getResource("../Beranda/Beranda.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
+
+    @FXML
+    private void switchToPeneliti(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("../BerandaPeneliti/BerandaPeneliti.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

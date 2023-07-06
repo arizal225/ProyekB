@@ -16,14 +16,16 @@
                   <Font name="System Bold" size="30.0" />
                </font>
             </Label>
-            <Button fx:id="kembali" layoutX="40.0" layoutY="13.0" mnemonicParsing="false" onAction="#switchToBeranda" prefHeight="69.0" prefWidth="105.0" style="-fx-background-color: transparant;" />
-            <ImageView fitHeight="46.0" fitWidth="22.0" layoutX="82.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../Jpg/Icon%20Kembali.png" />
-               </image>
-            </ImageView>
+            <Button fx:id="kembali" layoutX="40.0" layoutY="13.0" mnemonicParsing="false" onAction="#switchToBeranda" prefHeight="69.0" prefWidth="105.0" style="-fx-background-color: transparant;">
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Icon%20Kembali.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
          </children></AnchorPane>
-      <AnchorPane layoutX="230.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
+      <AnchorPane layoutX="146.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="115.0" fitWidth="189.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -60,14 +62,14 @@
             <Label layoutX="42.0" layoutY="222.0" text="47.5 Km" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="490.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
+      <AnchorPane layoutX="403.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="115.0" fitWidth="189.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Winongo.JPG" />
                </image>
             </ImageView>
-            <Label layoutX="12.0" layoutY="129.0" text="Samudra Hindia">
+            <Label layoutX="12.0" layoutY="129.0" text="Winongo">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>
@@ -82,7 +84,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Label layoutX="42.0" layoutY="166.0" text="Lautan lepas" />
+            <Label layoutX="42.0" layoutY="166.0" text="Yogyakarta" />
             <ImageView fitHeight="37.0" fitWidth="36.0" layoutX="6.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Icon%20Kedalaman.png" />
@@ -97,14 +99,14 @@
             <Label layoutX="42.0" layoutY="222.0" text="47.5 Km" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="1240.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
+      <AnchorPane layoutX="1159.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="115.0" fitWidth="189.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Winongo.JPG" />
                </image>
             </ImageView>
-            <Label layoutX="12.0" layoutY="129.0" text="Nil">
+            <Label layoutX="12.0" layoutY="129.0" text="Winongo">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>
@@ -119,7 +121,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Label layoutX="42.0" layoutY="166.0" text="Mesir" />
+            <Label layoutX="42.0" layoutY="166.0" text="Yogyakarta" />
             <ImageView fitHeight="37.0" fitWidth="36.0" layoutX="6.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Icon%20Kedalaman.png" />
@@ -134,14 +136,14 @@
             <Label layoutX="42.0" layoutY="222.0" text="47.5 Km" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="984.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
+      <AnchorPane layoutX="911.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="115.0" fitWidth="189.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Winongo.JPG" />
                </image>
             </ImageView>
-            <Label layoutX="12.0" layoutY="129.0" text="Amazon">
+            <Label layoutX="12.0" layoutY="129.0" text="Winongo">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>
@@ -156,7 +158,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Label layoutX="42.0" layoutY="166.0" text="Brazil" />
+            <Label layoutX="42.0" layoutY="166.0" text="Yogyakarta" />
             <ImageView fitHeight="37.0" fitWidth="36.0" layoutX="6.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Icon%20Kedalaman.png" />
@@ -168,17 +170,17 @@
                   <Image url="@../Jpg/Icon%20Panjang.png" />
                </image>
             </ImageView>
-            <Label layoutX="42.0" layoutY="222.0" text="6.500 Km" />
+            <Label layoutX="42.0" layoutY="222.0" text="47.5 Km" />
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="741.0" layoutY="137.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
+      <AnchorPane layoutX="660.0" layoutY="135.0" prefHeight="305.0" prefWidth="212.0" styleClass="anchorpane-list" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="115.0" fitWidth="189.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Jpg/Beranda.jpg" />
+                  <Image url="@../Jpg/Winongo.JPG" />
                </image>
             </ImageView>
-            <Label layoutX="12.0" layoutY="129.0" text="Embung UII">
+            <Label layoutX="12.0" layoutY="129.0" text="Winongo">
                <font>
                   <Font name="System Bold" size="17.0" />
                </font>
@@ -193,7 +195,7 @@
                   <Font size="13.0" />
                </font>
             </Button>
-            <Label layoutX="42.0" layoutY="166.0" text="Jakal" />
+            <Label layoutX="42.0" layoutY="166.0" text="Yogyakarta" />
             <ImageView fitHeight="37.0" fitWidth="36.0" layoutX="6.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Icon%20Kedalaman.png" />

@@ -45,8 +45,8 @@
 }
 
 .anchorpane-list {
-  -fx-background-color: #082b59;
-  -fx-background-radius: 0px 0px 7px 7px;
+  -fx-background-color: #d9d9d9;
+  -fx-background-radius: 7px 7px 7px 7px;
 }
 
 .list {
@@ -79,7 +79,7 @@
 }
 
 .anchorpane-beranda-up {
-  -fx-background-color: #d3d3d3;
+  -fx-background-color: #98fb98;
   -fx-border-color: black;
   -fx-border-width: 0px 0px 1px 0px;
 }
@@ -138,5 +138,6 @@
 .anchorpane-sungai {
   -fx-background-color: #6237a0;
   -fx-background-radius: 0px 0px 145px 145px;
-  
 }
+
+

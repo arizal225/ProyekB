@@ -1,4 +1,4 @@
-package Peneliti;
+package InputData;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -13,7 +13,7 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-public class TambahController implements Initializable{
+public class InputDataController implements Initializable{
 
     @FXML
     private Button button;
@@ -80,24 +80,7 @@ public class TambahController implements Initializable{
 
     @FXML
     private void handleButtonAction(ActionEvent event, Object data) {
-        String text_nama = textField1.getText();
-        String text_lokasi = textField2.getText();
-        String text_suhu = textField21.getText();
-        String text_luas = textField22.getText();
-        String text_panjang = textField221.getText();
-        String text_warna = textField2211.getText();
-        String text_kedalaman = textField2212.getText();
-        String text_tahun = textField2213.getText();
-        data.add(new DataSungai(text_nama, text_lokasi));
-        textField1.setText("");
-        textField2.setText("");
-        textField21.setText("");
-        textField22.setText("");
-        textField221.setText("");
-        textField2211.setText("");
-        textField2212.setText("");
-        textField2213.setText("");
-
+    
     }
 
     @FXML
