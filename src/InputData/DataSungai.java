@@ -8,17 +8,19 @@ public class DataSungai {
     String kolomPanjang;
     String kolomWarna;
     String kolomKedalaman;
-    String kolomTahun;
 
-    public DataSungai(String x, String y, String z, String i, String j, String k, String l, String m){
-        this.kolomNama = x;
-        this.kolomLokasi = y;
-        this.kolomSuhu = z;
-        this.kolomLuas = i;
-        this.kolomPanjang = j;
-        this.kolomWarna = k;
-        this.kolomKedalaman = l;
-        this.kolomTahun = m;
+    
+    
+
+    public DataSungai(String string, String string2, String string3, String string4, String string5, String string6, String string7) {
+
+        this.kolomNama = string;
+        this.kolomLokasi = string2;
+        this.kolomSuhu = string3;
+        this.kolomLuas = string4;
+        this.kolomPanjang = string5;
+        this.kolomWarna = string6;
+        this.kolomKedalaman = string7;
     }
 
     public String getkolomNama(){
@@ -47,9 +49,5 @@ public class DataSungai {
 
     public String getkolomKedalaman(){
         return kolomKedalaman;
-    }
-
-    public String getkolomTahun(){
-        return kolomTahun;
     }
 }

@@ -79,14 +79,12 @@
 }
 
 .anchorpane-beranda-up {
-  -fx-background-color: #98fb98;
-  -fx-border-color: black;
-  -fx-border-width: 0px 0px 1px 0px;
+  -fx-background-color: transparant;
+  
 }
 
-.button-logout {
-    -fx-background-color: linear-gradient(#ff4d4d, #ff8080);
-    -fx-background-radius: 50px;
+.button-beranda {
+    -fx-background-color: transparant;
 }
 
 .button-logout:hover {

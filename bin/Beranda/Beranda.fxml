@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -10,59 +9,75 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" style="-fx-background-color: transparant;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beranda.BerandaController">
    <children>
-      <Button fx:id="informasi" layoutX="676.0" layoutY="270.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="188.0" prefWidth="205.0" styleClass="button-informasi" stylesheets="@../CSS/Tampilan.css" />
-      <AnchorPane prefHeight="95.0" prefWidth="1691.0" styleClass="anchorpane-beranda-up" stylesheets="@../CSS/Tampilan.css">
+      <ImageView fitHeight="980.0" fitWidth="1837.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Beranda.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
-            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1459.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Icon%20User.png" />
                </image>
             </ImageView>
-            <Button fx:id="logout" layoutX="59.0" layoutY="22.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="WHITE">
+            <Button fx:id="logout" layoutX="828.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="52.0" prefWidth="158.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="706.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Logo.png" />
                </image>
             </ImageView>
+            <Button layoutX="987.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="informasi" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="dlhButton" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
          </children></AnchorPane>
-      <FontAwesomeIcon fill="WHITE" glyphName="BOOK" layoutX="741.0" layoutY="389.0" size="80" />
-      <Label layoutX="712.0" layoutY="470.0" text="Informasi Sungai">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Button fx:id="dlhButton" layoutX="250.0" layoutY="270.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="188.0" prefWidth="205.0" styleClass="button-tentangdlh" stylesheets="@../CSS/Tampilan.css" />
-      <Button fx:id="tentangButton" layoutX="1107.0" layoutY="267.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="188.0" prefWidth="205.0" styleClass="button-ttgapk" stylesheets="@../CSS/Tampilan.css" />
-      <Label layoutX="301.0" layoutY="470.0" text="Tentang DLH">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="1144.0" layoutY="470.0" text="Tentang Aplikasi">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Label layoutX="55.0" layoutY="120.0" text="Beranda">
+      <Label layoutX="86.0" layoutY="172.0" text="River" textFill="#00f6ff">
          <font>
             <Font name="System Bold" size="50.0" />
          </font>
       </Label>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="761.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="746.0" layoutY="95.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="253.0" layoutY="297.0" pickOnBounds="true" preserveRatio="true">
+      <Button fx:id="dlhButton" layoutX="86.0" layoutY="413.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="52.0" prefWidth="288.0" text="Lihat Selengkapnya">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="513.0" fitWidth="659.0" layoutX="924.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Jpg/Icon%20DLH.png" />
+            <Image url="@../Jpg/Laptop.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="1135.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="150.0" fitWidth="226.0" layoutX="1081.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Jpg/Tentang%20Aplikasi.png" />
+            <Image url="@../Jpg/Logo.png" />
          </image>
       </ImageView>
+      <Label layoutX="208.0" layoutY="172.0" text="Now" textFill="#1c05ec">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="86.0" layoutY="257.0" prefHeight="125.0" prefWidth="700.0" text="Selamat datang di sistem Aplikasi berweb kami, Di sini, kami memiliki kata-kata yang ingin kami bagikan dengan para pengguna kami: 1. Selamat datang di rumah digital kami! Kami siap membantu Anda menjelajahi dan memanfaatkan informasi dengan efisien dan efektif. 2. Informasi adalah kekuatan, dan kami" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

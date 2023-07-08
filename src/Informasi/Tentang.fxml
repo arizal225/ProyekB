@@ -7,32 +7,74 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1680.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
    <children>
-      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+      <ImageView fitHeight="980.0" fitWidth="1837.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Beranda.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="96.0" layoutY="278.0" prefHeight="106.0" prefWidth="439.0" text="Rivernow aplikasi tentang hasil penelitian sungaii dan informasi sungai dii indonesia yang di awasi oleh DLH dan sudah teruji kualitas air sungainya" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="96.0" layoutY="384.0" prefHeight="150.0" prefWidth="439.0" text="Fungsinya untuk mencatat hasil2 penelitian dari DLH dan Peneliti untuk memberi informasi ke masyrakat tentang kualitas air sungaii dii lingkungan sekitar" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <ImageView fitHeight="397.0" fitWidth="619.0" layoutX="858.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Lambang_Kementerian_Lingkungan_Hidup_dan_Kehutanan.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
-            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToBeranda" prefHeight="74.0" prefWidth="114.0">
-               <graphic>
-                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../Jpg/Icon%20Kembali.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-            </Button>
-            <ImageView fitHeight="142.0" fitWidth="200.0" layoutX="708.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Jpg/Lambang_Kementerian_Lingkungan_Hidup_dan_Kehutanan.png" />
+                  <Image url="@../Jpg/Icon%20User.png" />
                </image>
             </ImageView>
+            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="#cc0000">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="987.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
          </children>
       </AnchorPane>
-      <Label alignment="CENTER" layoutX="708.0" layoutY="157.0" prefHeight="130.0" prefWidth="142.0" text="Rivernow">
+      <Label layoutX="96.0" layoutY="182.0" text="River" textFill="#00f6ff">
          <font>
-            <Font name="System Bold" size="27.0" />
+            <Font name="System Bold" size="50.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="678.0" layoutY="253.0" prefHeight="96.0" prefWidth="202.0" text="Rivernow aplikasi tentang hasil penelitian sungaii dan informasi sungai dii indonesia yang di awasi oleh DLH dan sudah teruji kualitas air sungainya" wrapText="true" />
-      <Label alignment="CENTER" layoutX="678.0" layoutY="321.0" prefHeight="150.0" prefWidth="202.0" text="Fungsinya untuk mencatat hasil2 penelitian dari DLH dan Peneliti untuk memberi informasi ke masyrakat tentang kualitas air sungaii dii lingkungan sekitar" wrapText="true" />
+      <Label layoutX="96.0" layoutY="182.0" text="River" textFill="#00f6ff">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="182.0" text="Now" textFill="#1c05ec">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

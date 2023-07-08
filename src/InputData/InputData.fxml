@@ -27,7 +27,6 @@
             <TableColumn fx:id="kolomPanjang" minWidth="0.0" prefWidth="127.20001220703125" text="Panjang" />
             <TableColumn fx:id="kolomWarna" minWidth="0.0" prefWidth="134.4000244140625" text="Warna" />
             <TableColumn fx:id="kolomKedalaman" minWidth="0.0" prefWidth="153.60015869140625" text="Kedalaman" />
-            <TableColumn fx:id="kolomTahun" minWidth="0.0" prefWidth="187.199951171875" text="Tahun" />
         </columns>
       </TableView>
       <TextField fx:id="nama" layoutX="43.0" layoutY="692.0" prefHeight="26.0" prefWidth="255.0" promptText="Nama" />

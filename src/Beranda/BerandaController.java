@@ -36,7 +36,7 @@ public class BerandaController implements Initializable {
     private Button publikasi;
 
     @FXML
-    private Button tentangButton;
+    private Button tentang;
 
     @FXML
     private BorderPane mainPane;
