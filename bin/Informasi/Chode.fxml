@@ -2,94 +2,190 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
    <children>
-      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+      <ImageView fitHeight="1388.0" fitWidth="2337.0" layoutX="-72.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/river-g0941868d9_1280.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
-            <Label layoutX="664.0" layoutY="41.0" text="Sungai Code">
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Icon%20User.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
                <font>
-                  <Font name="System Bold" size="39.0" />
+                  <Font size="16.0" />
                </font>
-            </Label>
-            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
-               <graphic>
-                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../Jpg/Icon%20Kembali.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="#e7ff32">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
             </Button>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="274.0" fitWidth="556.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Jpg/chode.jpg" />
-         </image>
-      </ImageView>
-      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
-         <children>
-            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
-               <font>
-                  <Font name="System Bold" size="19.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="606.0" prefWidth="700.0" text="Sungai Code adalah sungai yang membelah Kota Yogyakarta menjadi bagian barat dan timur, serta menjadi salah satu landmark kota ini. Sungai Code merupakan penampung utama aliran Sungai Boyong dari bagian hulu, sehingga kerap dianggap sebagai sungai yang sama.[1] Sungai Boyong sendiri bermata air di kaki Gunung Merapi.Sungai ini menjadi salah satu sungai yang memiliki arti yang sangat penting bagi penduduk provinsi Daerah Istimewa Yogyakarta.[2][3][4] Dengan mata air yang berada di salah satu gunung yang aktif di dunia, mata airnya dimanfaatkan untuk pengairan persawahan di Sleman dan Bantul serta dipergunakan juga sebagai sumber air minum. Sungai ini bermuara pada Sungai Opak.Masalah utama yang mengancam sungai ini adalah polusi.[5] Jembatan Kewek dan Sayidan melintasi sungai ini.Sungai ini mengalir di wilayah selatan tengah pulau Jawa yang beriklim sabana tropis (kode: As menurut klasifikasi iklim Köppen-Geiger).[6] Suhu rata-rata setahun sekitar 24 °C. Bulan panas adalah September, dengan suhu rata-rata 27 °C, dan terdingin April, sekitar 20 °C.[7] Curah hujan rata-rata tahunan adalah 2802 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 538 mm, dan yang terendah September, rata-rata 8 mm.[8]Total panjang sungai ini 41 km, dimulai dari Sungai Boyong sepanjang 24 km di hulu dan Sungai Code sepanjang 17 km di hilir.Sungai yang membelah kota Yogyakarta menjadi dua ini secara historis dijadikan dasar bagi berdirinya Kerajaan Mataram di Yogyakarta.Kali Code di Yogyakarta dan perumahan di sekitarnya yang terkena abu letusan gunung Kelud tahun 2014.Karena berhulu pada gunung berapi yang sangat aktif, sungai ini sering mengalami banjir lahar, yang membawa hanyutan lahar dingin yang mengendap di kereng Gunung Merapi, sebagai akibat dari hujan yang terjadi di wilayah gunung tersebut. Banjir lahar yang mengalir melalui Sungai Code menimbulkan dampak besar bagi penduduk di sepanjang bantaran sungai. Banyak rumah yang rusak atau hanyut terkena terjangan banjir lahar dingin tersebut.Untuk mengantisipasi datangnya banjir lahar, pemerintah kota telah membuat talud di sepanjang pinggiran Sungai Code yang ada di wilayah Kota Yogyakarta, dan secara berkala melakukan pengerukan sungai dengan menggunakan ekskavator. Selain itu di bagian hulu (Sungai Boyong) juga telah dibangun seri bendung sabo untuk menghambat aliran lahar sebelum mencapai kawasan pemukiman padat" wrapText="true">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="466.0" prefHeight="25.0" prefWidth="233.0" text="Luas Sub Das  : 4.006,25 hektar">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  : 41 Km">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI  3 Kabupaten, 19 Kecamatan : ">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="582.0" text="1. KABUPATEN SLEMAN">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="600.0" text="2. KOTA YOGYAKARTA">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="619.0">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="75.0" layoutY="619.0" text="3. KABUPATEN BANTUL">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="657.0">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
+      <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="606.0" prefWidth="1444.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1082.0" prefWidth="1426.0">
+               <children>
+                  <ImageView fitHeight="303.0" fitWidth="897.0" layoutX="84.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/chode.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="84.0" layoutY="486.0" text="Informasi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="521.0" prefHeight="121.0" prefWidth="902.0" text="Sungai Code adalah sungai yang membelah Kota Yogyakarta menjadi bagian barat dan timur, serta menjadi salah satu landmark kota ini. Sungai Code merupakan penampung utama aliran Sungai Boyong dari bagian hulu, sehingga kerap dianggap sebagai sungai yang sama. Sungai Boyong sendiri bermata air di kaki Gunung Merapi.Sungai ini menjadi salah satu sungai yang memiliki arti yang sangat penting bagi penduduk provinsi Daerah Istimewa Yogyakarta. Dengan mata air yang berada di salah satu gunung yang aktif di dunia, mata airnya dimanfaatkan untuk pengairan persawahan di Sleman dan Bantul serta dipergunakan juga sebagai sumber air minum. Sungai ini bermuara pada Sungai Opak.Masalah utama yang mengancam sungai ini adalah polusi. Jembatan Kewek dan Sayidan melintasi sungai ini." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="650.0" text="Geografi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="1060.0" layoutY="149.0" prefHeight="447.0" prefWidth="298.0" style="-fx-border-color: black;">
+                     <children>
+                        <AnchorPane layoutX="12.0" layoutY="14.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="119.0" layoutY="8.0" text="Lokasi" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="14.0" layoutY="64.0" text="Negara">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Label>
+                        <Label layoutX="135.0" layoutY="64.0" text="Indonesia" />
+                        <AnchorPane layoutX="12.0" layoutY="183.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="102.0" layoutY="8.0" text="Ciri-ciri Fisik" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="14.0" layoutY="90.0" text="Daerah Istimewa" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="17.0" layoutY="256.0" text="-lokasi" />
+                        <Label layoutX="134.0" layoutY="90.0" text="Daerah Istimewa Yogyakarta" textFill="#00a9ff" />
+                        <Label layoutX="14.0" layoutY="229.0" text="Hulu Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_LEFT" layoutX="134.0" layoutY="114.0" prefHeight="52.0" prefWidth="140.0" text="Kabupaten Sleman, Kota Yogyakarta, Kabupaten Bantul" textFill="#00a9ff" wrapText="true" />
+                        <Label layoutX="14.0" layoutY="114.0" text="Kabupaten/Kota">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="129.0" layoutY="229.0" text="Gunung Merapi" textFill="#00a9ff" />
+                        <Label layoutX="128.0" layoutY="256.0" text="Kabupaten Sleman" textFill="#00a9ff" />
+                        <Label layoutX="17.0" layoutY="281.0" text="Muara Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="128.0" layoutY="281.0" text="Kali Opak" textFill="#00a9ff" />
+                        <Label layoutX="17.0" layoutY="307.0" text="-lokasi" />
+                        <Label layoutX="128.0" layoutY="307.0" text="Kabupaten Bantul" textFill="#00a9ff" />
+                        <Label layoutX="17.0" layoutY="333.0" text="Panjang" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="128.0" layoutY="333.0" text="41 kilometer (25 mi)" />
+                        <AnchorPane layoutX="12.0" layoutY="373.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="102.0" layoutY="8.0" text="Ciri-ciri Fisik" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="17.0" layoutY="414.0" text="Jembatan" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="128.0" layoutY="414.0" text="Kewek, Sayidan" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="-3.0" prefHeight="114.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;">
+                     <children>
+                        <Label layoutX="602.0" layoutY="30.0" text="Sungai Code">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="682.0" prefHeight="121.0" prefWidth="902.0" text="Sungai ini mengalir di wilayah selatan tengah pulau Jawa yang beriklim sabana tropis (kode: As menurut klasifikasi iklim Köppen-Geiger). Suhu rata-rata setahun sekitar 24 °C. Bulan panas adalah September, dengan suhu rata-rata 27 °C, dan terdingin April, sekitar 20 °C. Curah hujan rata-rata tahunan adalah 2802 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 538 mm, dan yang terendah September, rata-rata 8 mm.Total panjang sungai ini 41 km, dimulai dari Sungai Boyong sepanjang 24 km di hulu dan Sungai Code sepanjang 17 km di hilir." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="773.0" text="Arti Penting:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="804.0" prefHeight="166.0" prefWidth="902.0" text="Sungai yang membelah kota Yogyakarta menjadi dua ini secara historis dijadikan dasar bagi berdirinya Kerajaan Mataram di Yogyakarta.Kali Code di Yogyakarta dan perumahan di sekitarnya yang terkena abu letusan gunung Kelud tahun 2014.Karena berhulu pada gunung berapi yang sangat aktif, sungai ini sering mengalami banjir lahar, yang membawa hanyutan lahar dingin yang mengendap di kereng Gunung Merapi, sebagai akibat dari hujan yang terjadi di wilayah gunung tersebut. Banjir lahar yang mengalir melalui Sungai Code menimbulkan dampak besar bagi penduduk di sepanjang bantaran sungai. Banyak rumah yang rusak atau hanyut terkena terjangan banjir lahar dingin tersebut.Untuk mengantisipasi datangnya banjir lahar, pemerintah kota telah membuat talud di sepanjang pinggiran Sungai Code yang ada di wilayah Kota Yogyakarta, dan secara berkala melakukan pengerukan sungai dengan menggunakan ekskavator. Selain itu di bagian hulu (Sungai Boyong) juga telah dibangun seri bendung sabo untuk menghambat aliran lahar sebelum mencapai kawasan pemukiman padat." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="968.0" text="Pemukiman:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="1000.0" prefHeight="46.0" prefWidth="902.0" text="Sejak dahulu telah dibangun pemukiman penduduk miskin di sepanjang sungai ini. Rumah-rumah di pinggir kali ini sering rusak akibat banjir lahar gunung Merapi." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+   <children>
+      <ImageView fitHeight="1288.0" fitWidth="2255.0" layoutX="-72.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/river-g0941868d9_1280.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Icon%20User.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="#e7ff32">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="606.0" prefWidth="1444.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1110.0" prefWidth="1414.0">
+               <children>
+                  <ImageView fitHeight="303.0" fitWidth="897.0" layoutX="84.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Sungai%20Citarum.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="566.0" layoutY="49.0" text="Sungai Citarum">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font></Label>
+                  <Label layoutX="84.0" layoutY="486.0" text="Informasi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="521.0" prefHeight="127.0" prefWidth="902.0" text="Ci Tarum[1] atau Citarum adalah sungai terpanjang dan terbesar di Tatar Pasundan Provinsi Jawa Barat, Indonesia. Sungai dengan nilai sejarah, ekonomi, dan sosial yang penting ini sejak 2007 menjadi salah satu dari sungai dengan tingkat ketercemaran tertinggi di dunia. Sungai ini memiliki peran penting dalam kehidupan masyarakat Jawa Barat, karena mendukung pertanian, pasokan air, perikanan, industri, pembuangan limbah, dan listrik bagi 25 juta orang. Jutaan orang tergantung langsung hidupnya dari sungai ini,[2] sekitar 500 pabrik berdiri di sekitar alirannya, tiga bendungan dibangun di alirannya, dan penggundulan hutan berlangsung pesat di wilayah hulu." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="622.0" text="Geografi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="82.0" layoutY="652.0" prefHeight="126.0" prefWidth="908.0" text="Panjang aliran sungai ini sekitar 300 km. Secara tradisional, hulu Ci Tarum dianggap berawal dari lereng Gunung Wayang, di tenggara Kota Bandung, di wilayah Desa Tarumajaya, Kertasari, Bandung.[7] Ada tujuh mata air yang menyatu di suatu danau buatan bernama Situ Cisanti di wilayah Kabupaten Bandung. Namun, berbagai anak sungai dari kabupaten bertetangga juga menyatukan alirannya ke Ci Tarum, seperti Ci Kapundung dan Ci Beet. Aliran kemudian mengarah ke arah barat, melewati Majalaya dan Dayeuhkolot, lalu berbelok ke arah barat laut dan utara, menjadi perbatasan Kabupaten Cianjur dengan Kabupaten Bandung Barat, melewati Kabupaten Purwakarta, dan terakhir Kabupaten Karawang (batas dengan Kabupaten Bekasi). Sungai ini bermuara di Ujung Karawang." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="804.0" prefHeight="272.0" prefWidth="910.0" text="Keadaan lingkungan sekitar Ci Tarum telah banyak berubah sejak paruh kedua dasawarsa 1980-an. Industrialisasi yang pesat sejak akhir 1980-an di kawasan sekitar sungai ini telah menyebabkan menumpuknya limbah buangan pabrik-pabrik di Ci Tarum.[13]Setiap musim hujan wilayah Bandung Selatan di sepanjang Ci Tarum selalu dilanda banjir. Setelah kejadian banjir besar yang melanda daerah tersebut pada tahun 1986,[butuh rujukan] pemerintah membuat proyek normalisasi sungai Ci Tarum dengan mengeruk dan melebarkan sungai bahkan meluruskan alur sungai yang berkelok. Tetapi hasil proyek itu tampaknya sia-sia karena setelahnya tidak ada perubahan perilaku masyarakat sekitar, sehingga sungai tetap menjadi tempat pembuangan sampah bahkan limbah pabrik pun mengalir ke Ci Tarum. Bertahun kemudian,[per kapan?] keadaan sungai bahkan bertambah buruk, sempit dan dangkal, penuh sampah, dan di sebagian tempat airnya pun berwarna hitam pekat.[butuh pemastian] Cipicung dan Cimeta menjadi sumber pencemaran karena keduanya bermuara di Citarum.[8]Para pemerhati lingkungan telah mengamati bahwa lebih dari 20.000 ton limbah dan 340.000 ton air limbah dari pabrik tekstil tersebut dibuang ke sungai setiap hari. Akibat dari pencemaran ini adalah hilangnya sebagian besar populasi ikan sungai yang diperkirakan mencapai 60% sejak 2008.[14][15] Di tahun 2018, indeks kualitas air (i.k.a.) Sungai Citarum mencapai angka 33,43 atau berada dalam status tercemar berat. Pemerintah Propinsi Jawa Barat menargetkan bahwa, pada tahun 2025, IKA Sungai Citarum harus mencapai 60 poin." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="772.0" text="Pencemaran:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="1060.0" layoutY="149.0" prefHeight="386.0" prefWidth="298.0" style="-fx-border-color: black;">
+                     <children>
+                        <AnchorPane layoutX="12.0" layoutY="14.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="119.0" layoutY="8.0" text="Lokasi" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="14.0" layoutY="64.0" text="Provinsi" />
+                        <Label layoutX="14.0" layoutY="87.0" prefHeight="18.0" prefWidth="90.0" text="Kabupaten/Kota" />
+                        <Label layoutX="112.0" layoutY="64.0" text="Jawa Barat" textFill="#00a9ff" />
+                        <Label alignment="TOP_LEFT" layoutX="112.0" layoutY="87.0" prefHeight="65.0" prefWidth="166.0" text="Bandung, Bandung Barat, Kota Bandung, Cianjur, Purwakarta, Karawang, Bekasi" textFill="#00a9ff" wrapText="true">
+                           <font>
+                              <Font />
+                           </font>
+                        </Label>
+                        <AnchorPane layoutX="12.0" layoutY="153.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="102.0" layoutY="8.0" text="Ciri-ciri Fisik" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="12.0" layoutY="206.0" text="Panjang" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="112.0" layoutY="206.0" text="297 km (185 mi)" />
+                        <Label layoutX="12.0" layoutY="231.0" text="Lebar" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="252.0" text="-minimum" />
+                        <Label layoutX="112.0" layoutY="252.0" text="50 m (160 ft)" />
+                        <Label layoutX="14.0" layoutY="272.0" text="-maksimum" />
+                        <Label layoutX="112.0" layoutY="272.0" text="60 m (200 ft)" />
+                        <Label layoutX="12.0" layoutY="297.0" text="Kedalaman" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="18.0" layoutY="318.0" text="-minimum" />
+                        <Label layoutX="115.0" layoutY="318.0" text="0,5 m (1,6 ft)" />
+                        <Label layoutX="18.0" layoutY="339.0" text="-maksimum" />
+                        <Label layoutX="113.0" layoutY="339.0" text="3 m (9,8 ft)" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

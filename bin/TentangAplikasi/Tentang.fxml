@@ -44,17 +44,17 @@
                   <Image url="@../Jpg/Logo.png" />
                </image>
             </ImageView>
-            <Button fx:id="rumah" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleButtonRumah" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+            <Button fx:id="rumah" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleButtonRumah" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button fx:id="sungai" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleButtonSungai" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Informasi Sungai">
+            <Button fx:id="sungai" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleButtonSungai" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Informasi Sungai" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+            <Button layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>

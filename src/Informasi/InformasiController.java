@@ -23,6 +23,18 @@ public class InformasiController implements Initializable{
     private Button winongo;
 
     @FXML
+    private Button citarum;
+
+    @FXML
+    private Button progo;
+
+    @FXML
+    private Button chode;
+
+    @FXML
+    private Button opak;
+
+    @FXML
     private Button apk;
 
     @FXML
@@ -33,7 +45,7 @@ public class InformasiController implements Initializable{
     private Parent root;
 
     @FXML
-    public void handleButtonAction (ActionEvent event) throws Exception {
+    public void handleButtonWinongo (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Winongo.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
@@ -42,7 +54,7 @@ public class InformasiController implements Initializable{
     }
 
     @FXML
-    public void handleButtonActionA (ActionEvent event) throws Exception {
+    public void handleButtonOpak (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Opak.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
@@ -51,7 +63,7 @@ public class InformasiController implements Initializable{
     }
 
     @FXML
-    public void handleButtonActionB (ActionEvent event) throws Exception {
+    public void handleButtonProgo (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Progo.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
@@ -60,8 +72,17 @@ public class InformasiController implements Initializable{
     }
 
     @FXML
-    public void handleButtonActionC (ActionEvent event) throws Exception {
+    public void handleButtonChode (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Chode.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    public void handleButtonCitarum (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("Citarum.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

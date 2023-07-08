@@ -10,6 +10,11 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
    <children>
+      <ImageView fitHeight="1228.0" fitWidth="1974.0" layoutX="-72.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/river-g0941868d9_1280.jpg" />
+         </image>
+      </ImageView>
       <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
@@ -27,7 +32,7 @@
                   <Image url="@../Jpg/Logo.png" />
                </image>
             </ImageView>
-            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -37,7 +42,7 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -46,11 +51,11 @@
       </AnchorPane>
       <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="569.0" prefWidth="1444.0">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="574.0" prefWidth="1370.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="706.0" prefWidth="1370.0">
                <children>
                   <AnchorPane prefHeight="142.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
                      <children>
-                        <Button fx:id="winongo1" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
+                        <Button fx:id="winongo" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonWinongo" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
@@ -69,17 +74,17 @@
                   </AnchorPane>
                   <AnchorPane layoutY="142.0" prefHeight="130.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
                      <children>
-                        <Button fx:id="winongo11" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonActionA" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
+                        <Button fx:id="citarum" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonCitarum" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
                         </Button>
-                        <ImageView fitHeight="114.0" fitWidth="201.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="114.0" fitWidth="201.0" layoutX="14.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Jpg/OpakRiver.jpg" />
+                              <Image url="@../../../../BFH/ProyekB/src/Jpg/Sungai%20Citarum.jpg" />
                            </image>
                         </ImageView>
-                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Opak">
+                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Citarum">
                            <font>
                               <Font name="System Bold" size="25.0" />
                            </font>
@@ -88,7 +93,7 @@
                   </AnchorPane>
                   <AnchorPane layoutY="284.0" prefHeight="142.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
                      <children>
-                        <Button fx:id="winongo111" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonActionB" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
+                        <Button fx:id="progo" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonProgo" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
@@ -107,7 +112,7 @@
                   </AnchorPane>
                   <AnchorPane layoutY="426.0" prefHeight="142.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
                      <children>
-                        <Button fx:id="winongo1111" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonActionC" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
+                        <Button fx:id="chode" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonChode" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
@@ -118,6 +123,25 @@
                            </image>
                         </ImageView>
                         <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Chode">
+                           <font>
+                              <Font name="System Bold" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutY="568.0" prefHeight="142.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
+                     <children>
+                        <Button fx:id="opak" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonOpak" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../../BFH/ProyekB/src/Jpg/OpakRiver.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Opak">
                            <font>
                               <Font name="System Bold" size="25.0" />
                            </font>
