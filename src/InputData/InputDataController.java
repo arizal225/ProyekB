@@ -78,16 +78,13 @@ public class InputDataController implements Initializable{
     private TextField kedalaman;
 
     @FXML
-    private TextField tahun;
-
-    @FXML
     private TextField textFieldHapus;
 
     @FXML
     private TextField warna;
 
     @FXML
-    private void handleButtonAction(ActionEvent event, Object data) {
+    private void handleButtonTambah(ActionEvent event, Object data) {
     String Temp1 =  nama.getText();
     String Temp2 =  lokasi.getText();
     String Temp3 =  suhu.getText();

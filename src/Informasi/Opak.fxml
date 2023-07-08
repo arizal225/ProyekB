@@ -2,94 +2,205 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
    <children>
-      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+      <ImageView fitHeight="1701.0" fitWidth="3209.0" layoutX="-72.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/river-g0941868d9_1280.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
-            <Label layoutX="572.0" layoutY="41.0" text="Sungai Opak">
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Icon%20User.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
                <font>
-                  <Font name="System Bold" size="39.0" />
+                  <Font size="16.0" />
                </font>
-            </Label>
-            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
-               <graphic>
-                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../Jpg/Icon%20Kembali.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="#e7ff32">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
             </Button>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="339.0" fitWidth="556.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Jpg/OpakRiver.jpg" />
-         </image>
-      </ImageView>
-      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
-         <children>
-            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
-               <font>
-                  <Font name="System Bold" size="19.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="606.0" prefWidth="700.0" text="Sungai Opak atau Kali Opak adalah nama sungai yang mengalir di Daerah Istimewa Yogyakarta, Indonesia.[1] Alirannya melintasi Kabupaten Sleman dan Kabupaten Bantul. Hulu sungai ini berada di Gunung Merapi, lalu mengalir ke selatan dengan muara menghadap ke Samudra Hindia di Pantai Samas. Sungai ini melintas sisi barat Taman Wisata Candi Prambanan dan pernah menjadi batas alami wilayah Kesultanan Yogyakarta dengan Kasunanan Surakarta. Sungai Opak memiliki panjang sungai sekira 65 Km[2] dimulai dari hulu melewati wilayah Kecamatan Cangkringan, Kecamatan Ngemplak, Kecamatan Kalasan, Kecamatan Prambanan, dan Kecamatan Berbah di Kabupaten Sleman. Kemudian Kecamatan Piyungan, Kecamatan Pleret, Kecamatan Jetis, Kecamatan Imogiri, Kecamatan Pundong dan berakhir di Kecamatan Kretek. Debit air rata rata bulanan Sungai Opak sekitar 12,35 m3/detik dengan debit maksimum sebesar 83,2 m3/detik dan minimum sebesar 1,89 m3/detik.Dari hasil penelitian parameter kualitas air yang diukur meliputi fisik (suhu, salinitas, kedalaman), kimia (amonia, nittrat, fosfat), dan mokrobiologi (total koliform). Dari hasil yang diketahui kualitas air muara Sungai Opak parameter amoniak berkisar antara 0,02-0.06 mg/L, parameter nitrat berkisar antara 0,34-0,81 mg/L, parameter fosfat berkisar antara 0,06-0,46 mg/L, dan total koliform antara 30.825 koloni/100mL. Dengan demikian status mutu kualitas muara Sungai Opak tercemar sedang.Sungai ini mengalir di wilayah selatan pulau Jawa yang beriklim muson tropis (kode: Am menurut klasifikasi iklim Köppen-Geiger).[3] Suhu rata-rata setahun sekitar 22 °C. Bulan terpanas adalah Oktober, dengan suhu rata-rata 26 °C, dan terdingin Januari, sekitar 18 °C.[4] Curah hujan rata-rata tahunan adalah 2970 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 537 mm, dan yang terendah September, rata-rata 22 mm.Air Sungai Opak tergolong keruh, tetapi tidak berarti sangat tercemar karena makhluk hidup yang tinggal di situ lumayan banyak dan bervariasi. Variasi makhluk hidup tersebut salah satunya di daerah saluran irigasi Sungai Opak yang melintasi sepanjang jalan menuju ke Pantai Parangtritis terdapat macam-macam ikan, antara lain ikan sapu-sapu (Hypostomus plecostomus), ikan-ikan kecil sejenis tawes Kepek (wader kepek), Lele Jawa (Clarias batracus), ikan gabus, ikan Nilem (Osteochillus hasselti), dan ikan Beles. Pada daerah tersebut Lele Jawa mulai terancam kepunahannya sejak adanya Lele Dumbo, karena perkembangbiakan Lele Dumbo lebih cepat. Orang-orang di sekitar daerah tersebut jarang mau membudidayakan Lele Jawa. Di pinggiran sungai terdapat tanaman eceng gondok yang berjumlah ratusan. Sungai Opak dimanfaatkan warga sekitar di beberapa daerah misalnya di Kembangsongo Jetis Bantul, warga memanfaatkan Sungai Opak sebagai mata pencaharian untuk memenuhi kebutuhan hidup sehari-hari seperti mencari pasir untuk dijual sebagai bahan bangunan dan tidak sedikit warga yang memancing di sungai ini. Selain itu, warga juga mencari kayu yang berasal dari daerah hulu yang terbawa arus banjir untuk bahan bakar. Selain itu terdapat kerusakan di beberapa daerah sekitar sungai. Salah satunya pada alur sungai di daerah Sanden, Selomartani, Kalasan mengalami kerusakan parah akibat penambangan liar. Sungai yang dulu lebarnya 40 meter sekarang menjadi 50 meter lebih. Kerusakan tersebut sepanjang satu kilo meter di alur wilayah tersebut. Di beberapa titik, bibir sungai yang asli telah bergeser hingga 15 meter ke arah samping. " wrapText="true">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="466.0" text="Luas Sub Das  : 1398 Km2">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  : 65 Km">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI  3 Kabupaten, 19 Kecamatan : ">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="582.0" text="1. KABUPATEN SLEMAN">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="600.0" text="2. KOTA YOGYAKARTA">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="619.0">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="75.0" layoutY="619.0" text="3. KABUPATEN BANTUL">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
-      <Label layoutX="91.0" layoutY="657.0">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
+      <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="606.0" prefWidth="1444.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1468.0" prefWidth="1426.0">
+               <children>
+                  <ImageView fitHeight="321.0" fitWidth="634.0" layoutX="84.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/OpakRiver.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="84.0" layoutY="486.0" text="Informasi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="521.0" prefHeight="68.0" prefWidth="902.0" text="Sungai Opak adalah nama sungai yang mengalir di Daerah Istimewa Yogyakarta, Indonesia. Alirannya melintasi Kabupaten Sleman dan Kabupaten Bantul. Hulu sungai ini berada di Gunung Merapi, lalu mengalir ke selatan dengan muara menghadap ke Samudra Hindia di Pantai Samas. Sungai ini melintas sisi barat Taman Wisata Candi Prambanan dan pernah menjadi batas alami wilayah Kesultanan Yogyakarta dengan Kasunanan Surakarta." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="596.0" text="Hidrologi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="1060.0" layoutY="149.0" prefHeight="435.0" prefWidth="298.0" style="-fx-border-color: black;">
+                     <children>
+                        <AnchorPane layoutX="12.0" layoutY="14.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="119.0" layoutY="8.0" text="Lokasi" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="14.0" layoutY="64.0" text="Negara">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Label>
+                        <Label layoutX="135.0" layoutY="64.0" text="Indonesia" />
+                        <AnchorPane layoutX="12.0" layoutY="125.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="102.0" layoutY="8.0" text="Ciri-ciri Fisik" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="14.0" layoutY="90.0" text="Provinsi" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="134.0" layoutY="90.0" text="Yogyakarta" textFill="#00a9ff" />
+                        <Label layoutX="14.0" layoutY="173.0" text="Hulu Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="133.0" layoutY="173.0" text="Gunung Merapi" textFill="#00a9ff" />
+                        <Label layoutX="133.0" layoutY="196.0" text="Samudra Hindia" textFill="#00a9ff" />
+                        <Label layoutX="13.0" layoutY="196.0" text="Muara Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="220.0" text="Panjang" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="132.0" layoutY="220.0" text="65 km (40 mi)" />
+                        <AnchorPane layoutX="12.0" layoutY="256.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="77.0" layoutY="8.0" text="Daerah Aliran Sungai" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="127.0" layoutY="305.0" text="DAS Opak" />
+                        <Label layoutX="13.0" layoutY="305.0" text="Sistem Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="327.0" text="Ukuran" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="127.0" layoutY="327.0" text="DAS:" textFill="#00a9ff" />
+                        <Label layoutX="14.0" layoutY="352.0" text="Cekungan" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="127.0" layoutY="352.0" text="(24.668 sq mi)" />
+                        <Label layoutX="127.0" layoutY="376.0" text="BPDAS Serayu-Opak-Progo;" />
+                        <Label layoutX="16.0" layoutY="402.0" text="Sungai">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="15.0" layoutY="376.0" text="Pengelolaan">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="127.0" layoutY="402.0" text="BBWS Serayu-Opak" />
+                        <Label layoutX="156.0" layoutY="327.0" text="63.889 km2" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="-3.0" prefHeight="114.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;">
+                     <children>
+                        <Label layoutX="602.0" layoutY="30.0" text="Sungai Opak">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="629.0" prefHeight="84.0" prefWidth="902.0" text="Sungai Opak memiliki panjang sungai sekira 65 Km[2] dimulai dari hulu melewati wilayah Kecamatan Cangkringan, Kecamatan Ngemplak, Kecamatan Kalasan, Kecamatan Prambanan, dan Kecamatan Berbah di Kabupaten Sleman. Kemudian Kecamatan Piyungan, Kecamatan Pleret, Kecamatan Jetis, Kecamatan Imogiri, Kecamatan Pundong dan berakhir di Kecamatan Kretek. Debit air rata rata bulanan Sungai Opak sekitar 12,35 m3/detik dengan debit maksimum sebesar 83,2 m3/detik dan minimum sebesar 1,89 m3/detik." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="84.0" layoutY="719.0" text="Geografi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="753.0" prefHeight="88.0" prefWidth="902.0" text="Sungai ini mengalir di wilayah selatan pulau Jawa yang beriklim muson tropis (kode: Am menurut klasifikasi iklim Köppen-Geiger).[3] Suhu rata-rata setahun sekitar 22 °C. Bulan terpanas adalah Oktober, dengan suhu rata-rata 26 °C, dan terdingin Januari, sekitar 18 °C.[4] Curah hujan rata-rata tahunan adalah 2970 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 537 mm, dan yang terendah September, rata-rata 22 mm.[5]" wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="823.0" text="Pemanfaatan:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="1000.0" prefHeight="438.0" prefWidth="902.0" text="Sungai Opak dimanfaatkan warga sekitar di beberapa daerah misalnya di Kembangsongo Jetis Bantul, warga memanfaatkan Sungai Opak sebagai mata pencaharian untuk memenuhi kebutuhan hidup sehari-hari seperti mencari pasir untuk dijual sebagai bahan bangunan dan tidak sedikit warga yang memancing di sungai ini. Selain itu, warga juga mencari kayu yang berasal dari daerah hulu yang terbawa arus banjir untuk bahan bakar. Selain itu terdapat kerusakan di beberapa daerah sekitar sungai. Salah satunya pada alur sungai di daerah Sanden, Selomartani, Kalasan mengalami kerusakan parah akibat penambangan liar. Sungai yang dulu lebarnya 40 meter sekarang menjadi 50 meter lebih. Kerusakan tersebut sepanjang satu kilo meter di alur wilayah tersebut. Di beberapa titik, bibir sungai yang asli telah bergeser hingga 15 meter ke arah samping.Selain itu, penambangan tersebut menyebabakan warga kehilangan lahan pertanian lebih dari 500 meter. Kemarau panjang juga mengakibatkan debit air Sungai Opak turun sekitar 40 persen. Hal tersebut terjadi karena semakin minimnya daerah tangkapan air dan daerah tangkapan air tidak berfungsi optimal. Contoh daerah tangkapan air tersebut antara lain kawasan perbukitan Dieng di Wonosobo yang mengalami kerusakan cukup berat dan lereng Gunung Merapi yang rusak akibat erupsi 2010 tetapi sekarang berangsur pulih setelah diadakan reboisasi di daerah aliran sungai.Di muara Sungai Opak terdapat kawasan hutan mangrove yang terletak di desa Tirtohargo, kecamatan Kretek, kabupaten Bantul. Dusun Baros merupakan kawasan perintis hutan bakau pada salah satu area di muara Sungai Opak sehingga kawasan hutan mangrove tersebut sering disebut Kawasan Mangrove Baros. Tanaman mangrove tumbuh lebat, di dekatnya terdapat hamparan rumput yang digunakan oleh petani untuk pakan ternak. Terdapat sampah yang hanyut dari hulu sungai dan tersangkut di kawasan muara ketika air pasang sehingga membuat air laut dan tepi pantai tampak kotor. Kawasan ini berhasil mengembangkan hutan bakau yang sebelumnya diprediksi tidak dapat tumbuh dengan kondisi tanah dan lingkungan yang tidak memenuhi persyaratan. Usaha penanaman mangrove merupakan salah satu usaha untuk menyelamatkan kawasan pesisir pantai dari abrasi ombak laut selatan.Di daerah Muara Baros, sampah dari hulu yang hanyut terbawa arus ke muara menyebabkan daerah muara tampak kotor dan tercemar. Bila hal ini dibiarkan terus menerus dan dalam jangka waktu lama (puluhan tahun) akan menimbulkan kerusakan lingkungan di muara tersebut. Selain itu, jumlah variasi makhluk hidup akan berkurang dan sumber dayanya juga berkurang. Maka dari itu, perlu adanya pelestarian lingkungan yang tidak hanya di muara saja, tetapi yang lebih penting adalah di hulunya. Karena sumber limbah berawal dari hulu. Selain itu, penambangan liar yang terus menerus dilakukan akan menimbulkan pelebaran sungai. Akibatnya warga kehilangan lahan pertanian yang berada di sekitar sungai. Sehingga penghasilan dan sumber makanan warga sekitar berkurang. Hal tersebut sangat merugikan dan perlu dihentikan. Saat gempa bumi melanda wilayah Yogyakarta 27 Mei 2006, pihak Badan Survei Geologi Amerika Serikat (USGS) menyatakan pusat gempa (episentrum) berada di kawasan Pantai Samas atau tepatnya di muara Sungai Opak, pada koordinat 8,007 derajat Lintang Selatan, 110,286 derajat Bujur Timur." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

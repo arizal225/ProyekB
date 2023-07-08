@@ -87,7 +87,7 @@ public class InformasiController implements Initializable{
     }
     @FXML
     private void handleDlh (ActionEvent event) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Profiledlh.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../TentangDlh/TentangDlh.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);

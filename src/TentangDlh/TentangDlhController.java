@@ -58,16 +58,6 @@ public class TentangDlhController implements Initializable{
         stage.setScene(scene);
         stage.show();
     }
-    
-
-
-
-
-
-     
-
-
-    
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

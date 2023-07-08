@@ -36,10 +36,9 @@
       <TextField fx:id="panjang" layoutX="610.0" layoutY="692.0" prefHeight="26.0" prefWidth="255.0" promptText="Panjang" />
       <TextField fx:id="warna" layoutX="610.0" layoutY="733.0" prefHeight="26.0" prefWidth="255.0" promptText="Warna" />
       <TextField fx:id="kedalaman" layoutX="893.0" layoutY="692.0" prefHeight="26.0" prefWidth="255.0" promptText="kedalaman" />
-      <TextField fx:id="tahun" layoutX="893.0" layoutY="733.0" prefHeight="26.0" prefWidth="255.0" promptText="Tahun" />
       <TextField fx:id="textFieldHapus" layoutX="1202.0" layoutY="720.0" prefHeight="26.0" prefWidth="28.0" />
       <Label fx:id="labelHapus" layoutX="1169.0" layoutY="692.0" prefHeight="26.0" prefWidth="94.0" text="Hapus data ke:" textFill="WHITE" />
-      <Button fx:id="button" layoutX="43.0" layoutY="767.0" onAction="#handleButtonAction" style="-fx-background-color: Orange;" text="Tambah Data" textFill="WHITE" />
+      <Button fx:id="button" layoutX="43.0" layoutY="767.0" onAction="#handleButtonTambah" style="-fx-background-color: Orange;" text="Tambah Data" textFill="WHITE" />
       <Button fx:id="hapus" layoutX="1191.0" layoutY="754.0" onAction="#hapus" style="-fx-background-color: Red;" text="Hapus" textFill="WHITE" />
    </children>
 </AnchorPane>

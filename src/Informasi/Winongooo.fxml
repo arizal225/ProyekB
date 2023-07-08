@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+   <children>
+      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="572.0" layoutY="41.0" text="Sungai Winongo Jogja">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Icon%20Kembali.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="368.0" fitWidth="441.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Winongo.JPG" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="530.0" prefWidth="700.0" text="Sungai Winongo yang membelah Kota Yogyakarta mengalami berbagai persoalan pencemaran lingkungan. Untuk memastikan kondisinya, FKWA (Forum Komunikasi Winongo Asri) bersama mahasiswa Geologi UGM, REC UGM, Atmajaya, Universitas Islam Negeri, serta warga bantaran sungai melakukan susur sungai.Ketua FKWA DIY Endang Rohjiani menerangkan, susur sungai bertujuan untuk mengajak mahasiswa mengobservasi lingkungan sungai dengan melihat titik sampah, limbah, mata air, daya rusak air, kualitas air, bentang sungai hingga kedalaman sungai.Kegiatan susur sungai itu menempuh jarak sepanjang 4 km, mulai dari Pringgokusuman RW 01 hingga di Gedongkiwo RW 18 yang berbatasan dengan Kabupaten Bantul. Kegiatan itu dilakukan juga dalam rangka Hari Bumi.&quot;Setidaknya ada 19 poin yang harus diisikan dalam proses observasi. Harapannya hasil observasi ini akan membantu melihat persoalan sungai lebih dalam dan ke depan berdasar hasil observasi hari ini,&quot; ujarnya, Kamis, 4 Mei 2017.Kegiatan itu, menurut Endang, dilakukan dengan menyusuri Sungai Winongo dengan ban (tubing) dari Tegalrejo (jembatan rel kereta api) sampai Mantrijeron (timur Pasar Satwa dan Tanaman Hias Yogyakarta).Peserta dibagi menjadi 10 kelompok lalu mengidentifikasi kondisi sungai dari segmen Tegalrejo hingga Mantrijeron pada saat tubing. Masing-masing kelompok berhenti pada titik tertentu untuk menilai kondisi sungai dengan mikroorganisme yang ditemukan (biotilik).&quot;Beberapa temuan yang didapatkan adalah adanya temuan permasalahan antara lain timbunan sampah, tebing sungai yang rawan longsor, dan buangan limbah rumah tangga yang langsung dibuang ke sungai. Selain itu, peserta juga mengamati vegetasi dan kondisi mata air yang masih tersisa di segmen Sungai Winongo Kota Yogyakarta,&quot; ujarnya.Endang mengatakan kegiatan yang diikuti 200 orang itu nantinya akan mempermudah FKWA dalam menyusun perencanaan ke depan, terutama tentang pengelolaan Sungai Winongo. Hasil pemetaan itu akan diberikan kepada pemangku kepentingan dalam acara sarasehan pada minggu kedua Mei 2017.Hasil pengamatan pada Sungai Winongo menunjukkan adanya pencemaran ringan pada  segmen Tegalrejo hingga Pakuncen. Kesimpulan itu didapatkan dari nilai indeks biotilik sebesar 2,6.Sedangkan, pengamatan biotilik di Mantrijeron menunjukkan kualitas sungai dalam kondisi tercemar berat. Hal itu ditunjukkan dengan indeks biotilik sebesar 1,6.&quot;Dalam penilaian kualitas air sungai dengan biotilik tersebut dilakukan dengan menghitung parameter yaitu keragaman jenis mikroorganisme invertebrata, keragaman jenis famili mikroorganisme invertebrata, prosentase kelimpahan mikroorganisme invertebrata EPT dan penilaian indeks biotilik,&quot; ujarnya.Endang menjelaskan pada 7 dan 14 Mei 2017, kegiatan serupa juga akan dilakukan di Sleman dan Bantul. Dengan begitu, data yang didapatkan bisa relatif lengkap terkait kondisi Sungai Winongo dari Sleman, Kota Yogyakarta dan Bantul. Data yang didapatkan diharapkan dapat dimanfaatkan oleh pemangku kepentingan untuk meningkatkan kualitas Sungai Winongo." wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="466.0" text="Luas Sub Das  : 12.300 Ha">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  : 49,7 KM">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI  3 Kabupaten, 19 Kecamatan : ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="582.0" text="1. KABUPATEN SLEMAN : KEC TURI, KEC. PAKEM,KEC. NGALIK,KEC. SLEMAN,.KEC.  MLATI ,KEC. GAMPING">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="600.0" text="2. KOTA YOGYAKARTA:.KEC. TEGALREJO,.KEC. JETIS,.KEC. GEDONGTENGEN,.KEC. NGAMPILAN,.KEC. WIROBRAJAN,.">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="619.0" text="KEC. WIROBRAJAN,.KEC. GEDONGKIWO">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="638.0" text="3. KABUPATEN BANTUL : KEC. KASIHAN, KEC. SEWON, KEC. BANTUL, KEC. JETIS, KEC. BAMBANGLIPURO, ">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="657.0" text="KEC. KRETEK, KEC. PANDAK">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

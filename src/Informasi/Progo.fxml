@@ -2,74 +2,157 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
    <children>
-      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+      <ImageView fitHeight="1288.0" fitWidth="2255.0" layoutX="-72.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/river-g0941868d9_1280.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
-            <Label layoutX="655.0" layoutY="41.0" text="Sungai Progo">
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Icon%20User.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
                <font>
-                  <Font name="System Bold" size="39.0" />
+                  <Font size="16.0" />
                </font>
-            </Label>
-            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
-               <graphic>
-                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../Jpg/Icon%20Kembali.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="#e7ff32">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
             </Button>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="368.0" fitWidth="441.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Jpg/progo.jpg" />
-         </image>
-      </ImageView>
-      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
-         <children>
-            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
-               <font>
-                  <Font name="System Bold" size="19.0" />
-               </font>
-            </Label>
-            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="530.0" prefWidth="700.0" text="Kali Progo adalah sebuah sungai yang mengaliri Jawa Tengah dan Daerah Istimewa Yogyakarta di Indonesia.[1] Di Daerah Istimewa Yogyakarta, sungai ini menjadi batas alami Kabupaten Kulonprogo dengan Kabupaten Sleman dan Bantul.Sungai Progo bersumber dari lereng Gunung Sundoro-Gunung Sumbing yang melintas ke arah tenggara lalu ke selatan sepanjang 140 Km.Di daerah Kecamatan Ngluwar, Kabupaten Magelang, Kali Progo dibendung menjadi dua aliran untuk sarana irigasi bagi masyarakat Yogyakarta oleh Belanda. Bendungan ini dikenal sebagai &quot;Ancol Bligo&quot; yang sekarang menjadi tempat rekreasi warga. Aliran irigasi ini yang satu mengalir dari Ngluwar menuju ke arah Timur membelah Kabupaten Sleman dan menuju ke Kabupaten Klaten dan dikenal sebagai Selokan Mataram (dahulu disebut Kanal Yoshiro), sedangkan yang satunya mengalir di Kabupaten Kulonprogo menyusuri lembah Pegunungan Menoreh. Kali Progo bermuara di sebelah barat Pantai Kwaru, di pesisir selatan Jawa.Sungai ini mengalir di wilayah selatan pulau Jawa yang beriklim muson tropis (kode: Am menurut klasifikasi iklim Köppen-Geiger).[3] Suhu rata-rata setahun sekitar 24 °C. Bulan terpanas adalah Januari, dengan suhu rata-rata 27 °C, dan terdingin Juli, sekitar 23 °C.[4] Curah hujan rata-rata tahunan adalah 2970 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 537 mm, dan yang terendah September, rata-rata 22 mm.[5]" wrapText="true">
-               <font>
-                  <Font size="13.0" />
-               </font>
-            </Label>
-         </children>
-      </AnchorPane>
-      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="466.0" text="Luas Sub Das  : 2380 Km2">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  :140 Km">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI :  ">
-         <font>
-            <Font name="System Bold" size="19.0" />
-         </font>
-      </Label>
-      <Label layoutX="76.0" layoutY="505.0" prefHeight="225.0" prefWidth="641.0" text="Kali Progo atau sungai Progo adalah salah satu sungai besar yang melintasi Kota Yogyakarta. Daerah aliran Kali Progo adalah seluas 2380 km2 yang melewati Propinsi Jawa Tengah dan DI Yogyakarta dengan panjang sungai 140 km. Tetapi 75 % daerah aliran Kali Progo terdapat di DI Yogyakarta." wrapText="true">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Label>
+      <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="606.0" prefWidth="1444.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="826.0" prefWidth="1426.0">
+               <children>
+                  <ImageView fitHeight="303.0" fitWidth="897.0" layoutX="84.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/progo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="84.0" layoutY="486.0" text="Meliputi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="84.0" layoutY="521.0" prefHeight="46.0" prefWidth="902.0" text="Kali Progo atau sungai Progo adalah salah satu sungai besar yang melintasi Kota Yogyakarta. Daerah aliran Kali Progo adalah seluas 2380 km2 yang melewati Propinsi Jawa Tengah dan DI Yogyakarta dengan panjang sungai 140 km. Tetapi 75 % daerah aliran Kali Progo terdapat di DI Yogyakarta." wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="82.0" layoutY="575.0" text="Informasi:">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_LEFT" layoutX="82.0" layoutY="613.0" prefHeight="201.0" prefWidth="908.0" text="Kali Progo adalah sebuah sungai yang mengaliri Jawa Tengah dan Daerah Istimewa Yogyakarta di Indonesia.[1] Di Daerah Istimewa Yogyakarta, sungai ini menjadi batas alami Kabupaten Kulonprogo dengan Kabupaten Sleman dan Bantul.Sungai Progo bersumber dari lereng Gunung Sundoro-Gunung Sumbing yang melintas ke arah tenggara lalu ke selatan sepanjang 140 Km.Di daerah Kecamatan Ngluwar, Kabupaten Magelang, Kali Progo dibendung menjadi dua aliran untuk sarana irigasi bagi masyarakat Yogyakarta oleh Belanda. Bendungan ini dikenal sebagai &quot;Ancol Bligo&quot; yang sekarang menjadi tempat rekreasi warga. Aliran irigasi ini yang satu mengalir dari Ngluwar menuju ke arah Timur membelah Kabupaten Sleman dan menuju ke Kabupaten Klaten dan dikenal sebagai Selokan Mataram (dahulu disebut Kanal Yoshiro), sedangkan yang satunya mengalir di Kabupaten Kulonprogo menyusuri lembah Pegunungan Menoreh. Kali Progo bermuara di sebelah barat Pantai Kwaru, di pesisir selatan Jawa.Sungai ini mengalir di wilayah selatan pulau Jawa yang beriklim muson tropis (kode: Am menurut klasifikasi iklim Köppen-Geiger).[3] Suhu rata-rata setahun sekitar 24 °C. Bulan terpanas adalah Januari, dengan suhu rata-rata 27 °C, dan terdingin Juli, sekitar 23 °C.[4] Curah hujan rata-rata tahunan adalah 2970 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 537 mm, dan yang terendah September, rata-rata 22 mm.[5]" wrapText="true">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="1060.0" layoutY="149.0" prefHeight="346.0" prefWidth="298.0" style="-fx-border-color: black;">
+                     <children>
+                        <AnchorPane layoutX="12.0" layoutY="14.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="119.0" layoutY="8.0" text="Lokasi" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="14.0" layoutY="64.0" text="Negara" />
+                        <Label layoutX="135.0" layoutY="64.0" text="Indonesia" textFill="#00a9ff" />
+                        <AnchorPane layoutX="12.0" layoutY="101.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="102.0" layoutY="8.0" text="Ciri-ciri Fisik" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="12.0" layoutY="151.0" text="Hulu Panjang" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="134.0" layoutY="151.0" text="Gunung Sindoro" textFill="#00a9ff" />
+                        <Label layoutX="12.0" layoutY="178.0" text="Muara Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="134.0" layoutY="203.0" text="140 km (87 mi)" />
+                        <Label layoutX="12.0" layoutY="203.0" text="Panjang" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="135.0" layoutY="178.0" text="Samudra Hindia" textFill="#00a9ff" />
+                        <AnchorPane layoutX="12.0" layoutY="236.0" prefHeight="31.0" prefWidth="274.0" style="-fx-background-color: #5496BF;">
+                           <children>
+                              <Label layoutX="77.0" layoutY="8.0" text="Daerah Aliran Sungai" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
+                        <Label layoutX="13.0" layoutY="281.0" text="Sistem Sungai" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="13.0" layoutY="302.0" text="Ukuran Cekungan" textFill="#0041ff">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="132.0" layoutY="281.0" text="DAS Progo" />
+                        <Label layoutX="132.0" layoutY="302.0" text="2.500[2] km2 (970 sq mi)" />
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="-3.0" prefHeight="114.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 1px 0px;">
+                     <children>
+                        <Label layoutX="602.0" layoutY="30.0" text="Sungai Progo">
+                           <font>
+                              <Font name="System Bold" size="36.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

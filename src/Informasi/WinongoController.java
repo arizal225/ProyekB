@@ -36,8 +36,6 @@ public class WinongoController implements Initializable{
         stage.show();
     }
     
-    
-
 
     
     

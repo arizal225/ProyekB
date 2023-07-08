@@ -10,6 +10,11 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
    <children>
+      <ImageView fitHeight="1228.0" fitWidth="1974.0" layoutX="-72.0" layoutY="-42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/river-g0941868d9_1280.jpg" />
+         </image>
+      </ImageView>
       <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
          <children>
             <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
@@ -27,7 +32,7 @@
                   <Image url="@../Jpg/Logo.png" />
                </image>
             </ImageView>
-            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -37,7 +42,7 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+            <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -76,10 +81,10 @@
                         </Button>
                         <ImageView fitHeight="114.0" fitWidth="201.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Jpg/OpakRiver.jpg" />
+                              <Image url="@../Jpg/Winongo.JPG" />
                            </image>
                         </ImageView>
-                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Opak">
+                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Winongo">
                            <font>
                               <Font name="System Bold" size="25.0" />
                            </font>

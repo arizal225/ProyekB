@@ -36,23 +36,23 @@
                   <Font name="System Bold" size="15.0" />
                </font>
             </Button>
-            <Button fx:id="informasi" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai">
+            <Button fx:id="informasi" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button fx:id="dlhButton" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+            <Button fx:id="dlhButton" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
          </children></AnchorPane>
-      <Label layoutX="86.0" layoutY="172.0" text="River" textFill="#00f6ff">
+      <Label layoutX="86.0" layoutY="172.0" text="Selamat" textFill="#00f6ff">
          <font>
             <Font name="System Bold" size="50.0" />
          </font>
       </Label>
-      <Button fx:id="tentanggg" layoutX="86.0" layoutY="413.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="52.0" prefWidth="288.0" text="Tentang Aplikasi">
+      <Button fx:id="tentanggg" layoutX="86.0" layoutY="413.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="52.0" prefWidth="288.0" styleClass="button-tentangaplikasi" stylesheets="@../CSS/Tampilan.css" text="Tentang Aplikasi" textFill="WHITE">
          <font>
             <Font size="15.0" />
          </font>
@@ -67,7 +67,7 @@
             <Image url="@../Jpg/Logo.png" />
          </image>
       </ImageView>
-      <Label layoutX="208.0" layoutY="172.0" text="Now" textFill="#1c05ec">
+      <Label layoutX="294.0" layoutY="172.0" text="Datang" textFill="#1c05ec">
          <font>
             <Font name="System Bold" size="50.0" />
          </font>
