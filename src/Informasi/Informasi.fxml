@@ -17,7 +17,7 @@
                   <Image url="@../Jpg/Icon%20User.png" />
                </image>
             </ImageView>
-            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
+            <Button layoutX="828.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
                <font>
                   <Font size="16.0" />
                </font>
@@ -32,9 +32,9 @@
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai">
+            <Button layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="#e7ff32">
                <font>
-                  <Font size="15.0" />
+                  <Font name="System Bold" size="15.0" />
                </font>
             </Button>
             <Button fx:id="dlh" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">

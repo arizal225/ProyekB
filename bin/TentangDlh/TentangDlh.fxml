@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" style="-fx-background-color: transparant;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TentangDlh.TentangDlhController">
+   <children>
+      <ImageView fitHeight="980.0" fitWidth="1837.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Beranda.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Icon%20User.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="out" layoutX="828.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleButtonOut" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="home" layoutX="987.0" layoutY="28.0" mnemonicParsing="false" onAction="#handleButtonHom" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="info" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#handleButtonInfo" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label layoutX="86.0" layoutY="172.0" text="Tentang DLH" textFill="#00f6ff">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="172.0" textFill="#1c05ec">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="246.0" prefHeight="87.0" prefWidth="656.0" text="DLH merupakan unsur pelaksana urusan pemerintahan yang melaksanakan fungsi di bidang lingkungan hidup dan kehutanan. DLH dipimpin oleh Kepala Dinas yang berkedudukan di bawah dan bertanggung jawab kepada Bupati melalui Sekretaris Daerah." textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="355.0" text="Tugas dan Fungsi" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="86.0" layoutY="389.0" prefHeight="56.0" prefWidth="656.0" text="Dinas Lingkungan Hidup mempunyai tugas pokok melaksanakan penyusunan dan pelaksanaan kebijakan daerah di bidang pengelolaan dan pengendalian lingkungan hidup dalam rangka mewujudkan pembangunan berkelanjutan dan berwawasan lingkungan. Dalam melaksanakan tugas pokok tersebut.Dinas Lingkungan Hidup mempunyai fungsi :" textFill="WHITE" wrapText="true" />
+      <Label layoutX="86.0" layoutY="454.0" prefHeight="17.0" prefWidth="392.0" text="1. Perumusan kebijakan teknis bidang lingkungan hidup." textFill="WHITE" />
+      <Label layoutX="86.0" layoutY="472.0" prefHeight="17.0" prefWidth="392.0" text="2.Perencanaan pembangunan daerah" textFill="WHITE" />
+      <Label layoutX="86.0" layoutY="490.0" prefHeight="17.0" prefWidth="507.0" text="3.Penyelenggaraan urusan pemerintahan dan pelayanan umum di bidang lingkungan hidup" textFill="WHITE" />
+      <Label layoutX="86.0" layoutY="508.0" prefHeight="56.0" prefWidth="639.0" text="4.Pembinaan, fasilitasi dan pelaksanaan tugas di bidang pengendalian dampak lingkungan, pencemaran dan sengketa lingkungan, konservasi dan rehabilitasi sumber daya alam, laboratorium lingkungan lingkup Kabupaten dan pengelolaan sampah" textFill="WHITE" wrapText="true" />
+      <Label layoutX="86.0" layoutY="564.0" prefHeight="17.0" prefWidth="484.0" text="5.Pelaksanaan pengawasan, pemantauan, evaluasi dan pelaporan bidang lingkungan hidup" textFill="WHITE" />
+      <Label layoutX="86.0" layoutY="582.0" prefHeight="17.0" prefWidth="392.0" text="6.Pelaksanaan kesekretariatan Dinas" textFill="WHITE" />
+      <Label layoutX="86.0" layoutY="600.0" prefHeight="17.0" prefWidth="469.0" text="7.Pelaksanaan tugas lain yang diberikan oleh Bupati sesuai dengan tugas dan fungsinya" textFill="WHITE" />
+   </children>
+</AnchorPane>

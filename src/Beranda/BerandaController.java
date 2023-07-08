@@ -30,7 +30,7 @@ public class BerandaController implements Initializable {
     private Button informasi;
 
     @FXML
-    private Button dlhButton;
+    private Button tentanggg;
 
     @FXML
     private Button publikasi;
@@ -62,7 +62,7 @@ public class BerandaController implements Initializable {
 
     @FXML
     private void switchToDlh(ActionEvent event) throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Profiledlh.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../TentangDlh/tentangDlh.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
@@ -72,7 +72,7 @@ public class BerandaController implements Initializable {
 
     @FXML
     private void switchToTentang(ActionEvent event) throws IOException{
-        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Tentang.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../TentangAplikasi/Tentang.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
