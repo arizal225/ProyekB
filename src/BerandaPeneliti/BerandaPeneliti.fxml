@@ -1,28 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="817.0" prefWidth="1301.0" style="-fx-background-color: transparant;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beranda.BerandaController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1691.0" style="-fx-background-color: transparant;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Beranda.BerandaController">
    <children>
-      <BorderPane fx:id="mainPane" prefHeight="820.0" prefWidth="1301.0">
-         <left>
-            <VBox fx:id="slide" prefHeight="822.0" prefWidth="231.0" styleClass="vbox-beranda" stylesheets="@../CSS/Tampilan.css" BorderPane.alignment="CENTER">
-               <children>
-                  <Button mnemonicParsing="false" prefHeight="59.0" prefWidth="271.0" styleClass="button-informasi" stylesheets="@../CSS/Tampilan.css" text="Input Data Sungai" textFill="WHITE">
-                     <graphic>
-                        <FontAwesomeIcon glyphName="BOOK" size="30" text="" />
-                     </graphic></Button>
-               </children>
-            </VBox>
-         </left>
-         <top>
-            <Pane prefHeight="90.0" prefWidth="1302.0" styleClass="anchorpane-beranda-up" stylesheets="@../CSS/Tampilan.css" BorderPane.alignment="CENTER" />
-         </top>
-      </BorderPane>
+      <ImageView fitHeight="980.0" fitWidth="1837.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Beranda.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="62.0" prefWidth="1691.0" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <ImageView fitHeight="55.0" fitWidth="52.0" layoutX="1445.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Icon%20User.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="logout" layoutX="828.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Jpg/Logo.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="987.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="97.0" styleClass="button-beranda" text="Home" textFill="#e7ff32">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="informasi" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="dlhButton" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+      <Label layoutX="86.0" layoutY="172.0" text="Selamat" textFill="#00f6ff">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="tentanggg" layoutX="86.0" layoutY="380.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="52.0" prefWidth="288.0" styleClass="button-tentangaplikasi" stylesheets="@../CSS/Tampilan.css" text="Tentang Aplikasi" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="513.0" fitWidth="659.0" layoutX="924.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Laptop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="226.0" layoutX="1081.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="294.0" layoutY="172.0" text="Datang" textFill="#1c05ec">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="86.0" layoutY="257.0" prefHeight="125.0" prefWidth="700.0" text="Selamat datang di sistem Aplikasi berweb kami, Di sini, kami memiliki fitur-fitur yang kalian inginkan, Kami siap membantu Anda menjelajahi dan memanfaatkan informasi dengan efisien dan efektif." textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
