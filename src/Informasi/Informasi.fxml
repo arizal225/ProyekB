@@ -44,7 +44,7 @@
             </Button>
          </children>
       </AnchorPane>
-      <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="515.0" prefWidth="1444.0">
+      <ScrollPane layoutX="52.0" layoutY="122.0" prefHeight="569.0" prefWidth="1444.0">
         <content>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="574.0" prefWidth="1370.0">
                <children>
@@ -107,17 +107,17 @@
                   </AnchorPane>
                   <AnchorPane layoutY="426.0" prefHeight="142.0" prefWidth="1432.0" style="-fx-border-color: black; -fx-border-width: 0px 0px 2px 0px;">
                      <children>
-                        <Button fx:id="winongo1111" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
+                        <Button fx:id="winongo1111" layoutX="1201.0" layoutY="45.0" mnemonicParsing="false" onAction="#handleButtonActionC" prefHeight="52.0" prefWidth="182.0" styleClass="lihat-rincian" stylesheets="@../CSS/Tampilan.css" text="Lihat Selengkapnya" textFill="WHITE">
                            <font>
                               <Font size="15.0" />
                            </font>
                         </Button>
                         <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../Jpg/Winongo.JPG" />
+                              <Image url="@../Jpg/chode.jpg" />
                            </image>
                         </ImageView>
-                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Winongo">
+                        <Label layoutX="265.0" layoutY="52.0" prefHeight="38.0" prefWidth="235.0" text="Sungai Chode">
                            <font>
                               <Font name="System Bold" size="25.0" />
                            </font>

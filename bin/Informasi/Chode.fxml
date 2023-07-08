@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+   <children>
+      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="664.0" layoutY="41.0" text="Sungai Code">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Icon%20Kembali.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="274.0" fitWidth="556.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/chode.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="606.0" prefWidth="700.0" text="Sungai Code adalah sungai yang membelah Kota Yogyakarta menjadi bagian barat dan timur, serta menjadi salah satu landmark kota ini. Sungai Code merupakan penampung utama aliran Sungai Boyong dari bagian hulu, sehingga kerap dianggap sebagai sungai yang sama.[1] Sungai Boyong sendiri bermata air di kaki Gunung Merapi.Sungai ini menjadi salah satu sungai yang memiliki arti yang sangat penting bagi penduduk provinsi Daerah Istimewa Yogyakarta.[2][3][4] Dengan mata air yang berada di salah satu gunung yang aktif di dunia, mata airnya dimanfaatkan untuk pengairan persawahan di Sleman dan Bantul serta dipergunakan juga sebagai sumber air minum. Sungai ini bermuara pada Sungai Opak.Masalah utama yang mengancam sungai ini adalah polusi.[5] Jembatan Kewek dan Sayidan melintasi sungai ini.Sungai ini mengalir di wilayah selatan tengah pulau Jawa yang beriklim sabana tropis (kode: As menurut klasifikasi iklim Köppen-Geiger).[6] Suhu rata-rata setahun sekitar 24 °C. Bulan panas adalah September, dengan suhu rata-rata 27 °C, dan terdingin April, sekitar 20 °C.[7] Curah hujan rata-rata tahunan adalah 2802 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 538 mm, dan yang terendah September, rata-rata 8 mm.[8]Total panjang sungai ini 41 km, dimulai dari Sungai Boyong sepanjang 24 km di hulu dan Sungai Code sepanjang 17 km di hilir.Sungai yang membelah kota Yogyakarta menjadi dua ini secara historis dijadikan dasar bagi berdirinya Kerajaan Mataram di Yogyakarta.Kali Code di Yogyakarta dan perumahan di sekitarnya yang terkena abu letusan gunung Kelud tahun 2014.Karena berhulu pada gunung berapi yang sangat aktif, sungai ini sering mengalami banjir lahar, yang membawa hanyutan lahar dingin yang mengendap di kereng Gunung Merapi, sebagai akibat dari hujan yang terjadi di wilayah gunung tersebut. Banjir lahar yang mengalir melalui Sungai Code menimbulkan dampak besar bagi penduduk di sepanjang bantaran sungai. Banyak rumah yang rusak atau hanyut terkena terjangan banjir lahar dingin tersebut.Untuk mengantisipasi datangnya banjir lahar, pemerintah kota telah membuat talud di sepanjang pinggiran Sungai Code yang ada di wilayah Kota Yogyakarta, dan secara berkala melakukan pengerukan sungai dengan menggunakan ekskavator. Selain itu di bagian hulu (Sungai Boyong) juga telah dibangun seri bendung sabo untuk menghambat aliran lahar sebelum mencapai kawasan pemukiman padat" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="466.0" prefHeight="25.0" prefWidth="233.0" text="Luas Sub Das  : 4.006,25 hektar">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  : 41 Km">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI  3 Kabupaten, 19 Kecamatan : ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="582.0" text="1. KABUPATEN SLEMAN">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="600.0" text="2. KOTA YOGYAKARTA">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="619.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="619.0" text="3. KABUPATEN BANTUL">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="657.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

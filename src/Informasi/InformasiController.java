@@ -60,6 +60,15 @@ public class InformasiController implements Initializable{
     }
 
     @FXML
+    public void handleButtonActionC (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("Chode.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
     private void switchToHome (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../Beranda/Beranda.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
