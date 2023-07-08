@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+   <children>
+      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="655.0" layoutY="41.0" text="Sungai Progo">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Icon%20Kembali.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="368.0" fitWidth="441.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/progo.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="530.0" prefWidth="700.0" text="Kali Progo adalah sebuah sungai yang mengaliri Jawa Tengah dan Daerah Istimewa Yogyakarta di Indonesia.[1] Di Daerah Istimewa Yogyakarta, sungai ini menjadi batas alami Kabupaten Kulonprogo dengan Kabupaten Sleman dan Bantul.Sungai Progo bersumber dari lereng Gunung Sundoro-Gunung Sumbing yang melintas ke arah tenggara lalu ke selatan sepanjang 140 Km.Di daerah Kecamatan Ngluwar, Kabupaten Magelang, Kali Progo dibendung menjadi dua aliran untuk sarana irigasi bagi masyarakat Yogyakarta oleh Belanda. Bendungan ini dikenal sebagai &quot;Ancol Bligo&quot; yang sekarang menjadi tempat rekreasi warga. Aliran irigasi ini yang satu mengalir dari Ngluwar menuju ke arah Timur membelah Kabupaten Sleman dan menuju ke Kabupaten Klaten dan dikenal sebagai Selokan Mataram (dahulu disebut Kanal Yoshiro), sedangkan yang satunya mengalir di Kabupaten Kulonprogo menyusuri lembah Pegunungan Menoreh. Kali Progo bermuara di sebelah barat Pantai Kwaru, di pesisir selatan Jawa.Sungai ini mengalir di wilayah selatan pulau Jawa yang beriklim muson tropis (kode: Am menurut klasifikasi iklim Köppen-Geiger).[3] Suhu rata-rata setahun sekitar 24 °C. Bulan terpanas adalah Januari, dengan suhu rata-rata 27 °C, dan terdingin Juli, sekitar 23 °C.[4] Curah hujan rata-rata tahunan adalah 2970 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 537 mm, dan yang terendah September, rata-rata 22 mm.[5]" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="466.0" text="Luas Sub Das  : 2380 Km2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  :140 Km">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI :  ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="505.0" prefHeight="225.0" prefWidth="641.0" text="Kali Progo atau sungai Progo adalah salah satu sungai besar yang melintasi Kota Yogyakarta. Daerah aliran Kali Progo adalah seluas 2380 km2 yang melewati Propinsi Jawa Tengah dan DI Yogyakarta dengan panjang sungai 140 km. Tetapi 75 % daerah aliran Kali Progo terdapat di DI Yogyakarta." wrapText="true">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

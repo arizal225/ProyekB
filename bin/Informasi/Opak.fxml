@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1557.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Informasi.InformasiController">
+   <children>
+      <AnchorPane prefHeight="136.0" prefWidth="1557.0" styleClass="anchorpane-winongo" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="572.0" layoutY="41.0" text="Sungai Opak">
+               <font>
+                  <Font name="System Bold" size="39.0" />
+               </font>
+            </Label>
+            <Button fx:id="back" layoutX="57.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="74.0" prefWidth="114.0">
+               <graphic>
+                  <ImageView fitHeight="61.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Jpg/Icon%20Kembali.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="339.0" fitWidth="556.0" layoutX="77.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/OpakRiver.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="779.0" layoutY="136.0" prefHeight="686.0" prefWidth="780.0" styleClass="anchorpane-right" stylesheets="@../CSS/Tampilan.css">
+         <children>
+            <Label layoutX="47.0" layoutY="27.0" text="Informasi:">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_LEFT" layoutX="47.0" layoutY="55.0" prefHeight="606.0" prefWidth="700.0" text="Sungai Opak atau Kali Opak adalah nama sungai yang mengalir di Daerah Istimewa Yogyakarta, Indonesia.[1] Alirannya melintasi Kabupaten Sleman dan Kabupaten Bantul. Hulu sungai ini berada di Gunung Merapi, lalu mengalir ke selatan dengan muara menghadap ke Samudra Hindia di Pantai Samas. Sungai ini melintas sisi barat Taman Wisata Candi Prambanan dan pernah menjadi batas alami wilayah Kesultanan Yogyakarta dengan Kasunanan Surakarta. Sungai Opak memiliki panjang sungai sekira 65 Km[2] dimulai dari hulu melewati wilayah Kecamatan Cangkringan, Kecamatan Ngemplak, Kecamatan Kalasan, Kecamatan Prambanan, dan Kecamatan Berbah di Kabupaten Sleman. Kemudian Kecamatan Piyungan, Kecamatan Pleret, Kecamatan Jetis, Kecamatan Imogiri, Kecamatan Pundong dan berakhir di Kecamatan Kretek. Debit air rata rata bulanan Sungai Opak sekitar 12,35 m3/detik dengan debit maksimum sebesar 83,2 m3/detik dan minimum sebesar 1,89 m3/detik.Dari hasil penelitian parameter kualitas air yang diukur meliputi fisik (suhu, salinitas, kedalaman), kimia (amonia, nittrat, fosfat), dan mokrobiologi (total koliform). Dari hasil yang diketahui kualitas air muara Sungai Opak parameter amoniak berkisar antara 0,02-0.06 mg/L, parameter nitrat berkisar antara 0,34-0,81 mg/L, parameter fosfat berkisar antara 0,06-0,46 mg/L, dan total koliform antara 30.825 koloni/100mL. Dengan demikian status mutu kualitas muara Sungai Opak tercemar sedang.Sungai ini mengalir di wilayah selatan pulau Jawa yang beriklim muson tropis (kode: Am menurut klasifikasi iklim Köppen-Geiger).[3] Suhu rata-rata setahun sekitar 22 °C. Bulan terpanas adalah Oktober, dengan suhu rata-rata 26 °C, dan terdingin Januari, sekitar 18 °C.[4] Curah hujan rata-rata tahunan adalah 2970 mm. Bulan dengan curah hujan tertinggi adalah Januari, dengan rata-rata 537 mm, dan yang terendah September, rata-rata 22 mm.Air Sungai Opak tergolong keruh, tetapi tidak berarti sangat tercemar karena makhluk hidup yang tinggal di situ lumayan banyak dan bervariasi. Variasi makhluk hidup tersebut salah satunya di daerah saluran irigasi Sungai Opak yang melintasi sepanjang jalan menuju ke Pantai Parangtritis terdapat macam-macam ikan, antara lain ikan sapu-sapu (Hypostomus plecostomus), ikan-ikan kecil sejenis tawes Kepek (wader kepek), Lele Jawa (Clarias batracus), ikan gabus, ikan Nilem (Osteochillus hasselti), dan ikan Beles. Pada daerah tersebut Lele Jawa mulai terancam kepunahannya sejak adanya Lele Dumbo, karena perkembangbiakan Lele Dumbo lebih cepat. Orang-orang di sekitar daerah tersebut jarang mau membudidayakan Lele Jawa. Di pinggiran sungai terdapat tanaman eceng gondok yang berjumlah ratusan. Sungai Opak dimanfaatkan warga sekitar di beberapa daerah misalnya di Kembangsongo Jetis Bantul, warga memanfaatkan Sungai Opak sebagai mata pencaharian untuk memenuhi kebutuhan hidup sehari-hari seperti mencari pasir untuk dijual sebagai bahan bangunan dan tidak sedikit warga yang memancing di sungai ini. Selain itu, warga juga mencari kayu yang berasal dari daerah hulu yang terbawa arus banjir untuk bahan bakar. Selain itu terdapat kerusakan di beberapa daerah sekitar sungai. Salah satunya pada alur sungai di daerah Sanden, Selomartani, Kalasan mengalami kerusakan parah akibat penambangan liar. Sungai yang dulu lebarnya 40 meter sekarang menjadi 50 meter lebih. Kerusakan tersebut sepanjang satu kilo meter di alur wilayah tersebut. Di beberapa titik, bibir sungai yang asli telah bergeser hingga 15 meter ke arah samping. " wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="77.0" layoutY="435.0" text="WILAYAH KERJA :">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="466.0" text="Luas Sub Das  : 1398 Km2">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="492.0" text="PANJANG SUNGAI  : 65 Km">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="76.0" layoutY="543.0" text="MELIPUTI  3 Kabupaten, 19 Kecamatan : ">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="582.0" text="1. KABUPATEN SLEMAN">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="77.0" layoutY="600.0" text="2. KOTA YOGYAKARTA">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="619.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="619.0" text="3. KABUPATEN BANTUL">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="657.0">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

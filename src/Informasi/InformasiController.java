@@ -42,6 +42,24 @@ public class InformasiController implements Initializable{
     }
 
     @FXML
+    public void handleButtonActionA (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("Opak.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    public void handleButtonActionB (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("Progo.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
     private void switchToHome (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../Beranda/Beranda.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
