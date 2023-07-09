@@ -21,11 +21,6 @@
                   <Image url="@../Jpg/Icon%20User.png" />
                </image>
             </ImageView>
-            <Button fx:id="logout" layoutX="828.0" layoutY="28.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="52.0" prefWidth="158.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="RED">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
             <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../Jpg/Logo.png" />
@@ -38,44 +33,49 @@
             </Button>
             <Button fx:id="informasi" layoutX="1106.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToInformasi" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" text="Informasi Sungai" textFill="WHITE">
                <font>
-                  <Font size="15.0" />
+                  <Font name="System Bold" size="15.0" />
                </font>
             </Button>
             <Button fx:id="dlhButton" layoutX="1277.0" layoutY="26.0" mnemonicParsing="false" onAction="#switchToDlh" prefHeight="52.0" prefWidth="150.0" styleClass="button-beranda" stylesheets="@../CSS/Tampilan.css" text="Tentang DLH" textFill="WHITE">
                <font>
-                  <Font size="15.0" />
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="824.0" layoutY="28.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="140.0" styleClass="button-logout1" stylesheets="@../CSS/Tampilan.css" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="logout" layoutX="829.0" layoutY="32.0" mnemonicParsing="false" onAction="#switchToLogin" prefHeight="43.0" prefWidth="130.0" styleClass="button-logout" stylesheets="@../CSS/Tampilan.css" text="Logout" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
                </font>
             </Button>
          </children></AnchorPane>
-      <Label layoutX="86.0" layoutY="172.0" text="Selamat" textFill="#00f6ff">
+      <Label layoutX="86.0" layoutY="172.0" text="Selamat Datang" textFill="#151d1e">
          <font>
             <Font name="System Bold" size="50.0" />
          </font>
       </Label>
-      <Button fx:id="tentanggg" layoutX="86.0" layoutY="413.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="52.0" prefWidth="288.0" styleClass="button-tentangaplikasi" stylesheets="@../CSS/Tampilan.css" text="Tentang Aplikasi" textFill="WHITE">
+      <Button fx:id="tentanggg" layoutX="86.0" layoutY="413.0" mnemonicParsing="false" onAction="#switchToTentang" prefHeight="52.0" prefWidth="288.0" style="-fx-background-radius: 50;" styleClass="button-tentangaplikasi" stylesheets="@../CSS/Tampilan.css" text="Tentang Aplikasi" textFill="WHITE">
          <font>
-            <Font size="15.0" />
+            <Font name="System Bold" size="15.0" />
          </font>
       </Button>
-      <ImageView fitHeight="513.0" fitWidth="659.0" layoutX="924.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Jpg/Laptop.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="226.0" layoutX="1081.0" layoutY="309.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../Jpg/Logo.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="294.0" layoutY="172.0" text="Datang" textFill="#1c05ec">
-         <font>
-            <Font name="System Bold" size="50.0" />
-         </font>
-      </Label>
-      <Label alignment="TOP_LEFT" layoutX="86.0" layoutY="257.0" prefHeight="125.0" prefWidth="700.0" text="Selamat datang di sistem Aplikasi berweb kami, Di sini, kami memiliki kata-kata yang ingin kami bagikan dengan para pengguna kami: 1. Selamat datang di rumah digital kami! Kami siap membantu Anda menjelajahi dan memanfaatkan informasi dengan efisien dan efektif. 2. Informasi adalah kekuatan, dan kami" textFill="WHITE" wrapText="true">
+      <Label alignment="TOP_LEFT" layoutX="86.0" layoutY="257.0" prefHeight="125.0" prefWidth="700.0" text="Selamat datang di sistem Aplikasi berweb kami, Di sini kami memiliki fitur-fitur yang kalian inginkan, dan Kami siap membantu Anda menjelajahi dan memanfaatkan informasi dengan efisien dan efektif." textFill="WHITE" wrapText="true">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
+      <ImageView fitHeight="428.0" fitWidth="532.0" layoutX="893.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/TemplateLaptop.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="259.0" fitWidth="389.0" layoutX="965.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Jpg/Screenshot%202023-07-09%20042926.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

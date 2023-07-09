@@ -25,15 +25,27 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 public class BerandaPenelitiController implements Initializable {
-    
-    @FXML
-    private Button input;
 
     @FXML
-    private Button publikasi;
+    private Button home;
+    
+    @FXML
+    private Button inputdata;
+
+    @FXML
+    private Button river;
+
+    @FXML
+    private Button ttgapk;
+
+    @FXML
+    private Button ttgdlh;
 
     @FXML
     private BorderPane mainPane;
+
+    @FXML
+    private Button logout;
 
     private Scene scene;
 
@@ -42,17 +54,80 @@ public class BerandaPenelitiController implements Initializable {
     private Parent root;
 
     @FXML
-    private void switchToData(ActionEvent event) throws IOException{
-        mainPane.setCenter(OpenScene.getPane("../InputData/InputData"));
+    private void handleButtonRiver(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("InfoRiver.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
     }
+
+    @FXML
+    private void handleButtonDlh(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("TtgDlh.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
+
+    @FXML
+    private void handleButtonApk(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("TtgApk.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
+
+    @FXML
+    private void handleButtonData(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("../tableview/InputData.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
+
+    @FXML
+    private void handleButtonHome(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("BerandaPeneliti.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
+
+    @FXML
+    private void handleButtonLogout(ActionEvent event) throws IOException{
+        Parent root = FXMLLoader.load(getClass().getResource("../Login/Login.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.setMaximized(true);
+        stage.show();
+    }
+
+
+    
+
+    
+
+    
+    
+    
 
     
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        if(mainPane.getCenter() == null){
-            mainPane.setCenter(OpenScene.getPane("../InputData/Data"));
-        }
+
+        
     }
 }
     

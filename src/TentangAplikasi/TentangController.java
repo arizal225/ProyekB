@@ -23,6 +23,9 @@ public class TentangController implements Initializable{
     private Button keluar;
 
     @FXML
+    private Button dlh;
+
+    @FXML
     private Button rumah;
 
     @FXML
@@ -43,6 +46,15 @@ public class TentangController implements Initializable{
 
     @FXML
     private void handleButtonSungai (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Informasi.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+     @FXML
+    private void handleButtonDlh (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Informasi.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);

@@ -93,13 +93,20 @@
 
 }
 
-.button-logout {
+.button-logout1 {
   -fx-background-color: transparant;
+  -fx-border-color: #d3d3d3;
+  -fx-border-radius: 100; 
+}
+
+.button-logout {
+  -fx-background-color: red;
+  -fx-background-radius: 100;
 }
 
 .button-logout:hover {
-    -fx-background-color: #d3d3d3;
-    -fx-background-radius: 50px;
+    -fx-background-color: #8b0000;
+    -fx-background-radius: 100;
 }
 
 .button-tentangdlh {

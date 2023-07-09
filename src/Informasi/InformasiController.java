@@ -20,6 +20,9 @@ import javafx.stage.Stage;
 public class InformasiController implements Initializable{
 
     @FXML
+    private Button informasi;
+
+    @FXML
     private Button winongo;
 
     @FXML
@@ -36,6 +39,8 @@ public class InformasiController implements Initializable{
 
     @FXML
     private Button apk;
+    @FXML
+    private Button logout;
 
     @FXML
     private Button home;
@@ -99,6 +104,15 @@ public class InformasiController implements Initializable{
     }
 
     @FXML
+    private void switchToLogin (ActionEvent event) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("../Login/Login.fxml"));
+        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
     private void switchToInformasi (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../Informasi/Informasi.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -107,7 +121,7 @@ public class InformasiController implements Initializable{
         stage.show();
     }
     @FXML
-    private void handleDlh (ActionEvent event) throws Exception {
+    private void switchToDlh (ActionEvent event) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../TentangDlh/TentangDlh.fxml"));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
